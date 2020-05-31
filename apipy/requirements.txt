@@ -1,0 +1,5 @@
+Flask
+numba==0.48.0
+librosa
+requests
+watson_developer_cloud
