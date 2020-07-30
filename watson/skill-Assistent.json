@@ -1,0 +1,394 @@
+{
+  "intents": [
+    {
+      "intent": "teste",
+      "examples": [
+        {
+          "text": "responder pesquisa"
+        },
+        {
+          "text": "voltar a menu"
+        },
+        {
+          "text": "finalizar"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "parent": "node_10_1589499203087",
+      "dialog_node": "node_6_1589499212305"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1589196675182",
+      "variable": "$number2",
+      "dialog_node": "slot_2_1589498693315",
+      "previous_sibling": "slot_4_1589498683005"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1589196675182",
+      "variable": "$number1",
+      "dialog_node": "slot_4_1589498683005"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "aaaa"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1589498683005",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1589498683019",
+      "previous_sibling": "handler_10_1589498683019"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1589498683005",
+      "context": {
+        "number1": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_10_1589498683019"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "bbbbb"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1589498693315",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1589498693318",
+      "previous_sibling": "handler_10_1589498693318"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1589498693315",
+      "context": {
+        "number2": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_10_1589498693318"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_6_1584366009296",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "frame",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "teste $number1 $number2"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1589499203087"
+      },
+      "conditions": "true",
+      "dialog_node": "node_4_1589196675182",
+      "previous_sibling": "node_1_1589567733960"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "foi"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "contexto": ""
+      },
+      "conditions": "$contexto=='pergunta_depois'",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1588977477130",
+      "previous_sibling": "node_10_1589499203087"
+    },
+    {
+      "type": "standard",
+      "title": "teste",
+      "output": {
+        "generic": [
+          {
+            "title": "template",
+            "options": [],
+            "description": "test_buttons_quick",
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "",
+      "dialog_node": "node_9_1587998250965",
+      "previous_sibling": "node_10_1588016376267"
+    },
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "teste"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome || true",
+      "digress_in": "does_not_return",
+      "dialog_node": "Bem-vindo",
+      "previous_sibling": "node_2_1588968922932"
+    },
+    {
+      "type": "standard",
+      "title": "manda oi",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "mande um 'oi' para iniciar a conversa"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "dialog_node": "node_6_1584366009296",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "aaaaa"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "dialog_node": "node_10_1589499203087",
+      "previous_sibling": "node_4_1589196675182"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "teste 42"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "actions": [
+        {
+          "name": "setSchedule",
+          "type": "client",
+          "parameters": {
+            "Arn": "arn:aws:lambda:us-east-1:767577533190:function:API",
+            "contexto": "pergunta_depois",
+            "dataHora": "<? now().plusMinutes(1) ?>",
+            "messages": [
+              {
+                "text": "oiii",
+                "response_type": "text"
+              },
+              {
+                "title": "template",
+                "description": "test_buttons_quick",
+                "response_type": "option"
+              }
+            ]
+          },
+          "credentials": "null",
+          "result_variable": "null"
+        }
+      ],
+      "context": {
+        "timezone": "GMT-3"
+      },
+      "conditions": "@sys-number:42",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1588951609251",
+      "previous_sibling": "node_8_1588977477130"
+    },
+    {
+      "type": "standard",
+      "title": "manutenção",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ambiente de desenvolvimento em manutenção."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "ok, $nome"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "true",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1588968922932",
+      "previous_sibling": "node_9_1587998250965"
+    },
+    {
+      "type": "standard",
+      "title": "teste",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "teste de botões concluido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "#teste",
+      "dialog_node": "node_10_1588016376267",
+      "previous_sibling": "node_1_1588951609251"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<? new Random().nextInt(30) ?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "true",
+      "dialog_node": "node_1_1589567733960"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Assistent antigo",
+  "language": "pt-br",
+  "description": ""
+}

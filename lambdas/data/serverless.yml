@@ -1,0 +1,21 @@
+service: data
+
+provider:
+  name: aws
+  region: us-east-1
+  runtime: nodejs12.x
+  stage: dev
+
+package:
+  individually: true
+
+# plugins:
+#   - serverless-webpack
+
+functions:
+  core:
+    handler: index.handler
+    role: arn:aws:iam::472986803497:role/lambda_wa
+    name: data
+    memorySize: 128
+    timeout: 40

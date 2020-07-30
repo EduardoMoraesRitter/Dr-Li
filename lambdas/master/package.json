@@ -1,0 +1,38 @@
+{
+  "name": "corporate.customer.conversation.core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "deploy": "sls deploy",
+    "remove": "sls remove",
+    "lint": "eslint src/**/*.js tests/**/*.js",
+    "prettier": "prettier --write src/**/*.js tests/**/*.js",
+    "prettier:ci": "prettier --list-different src/**/*.js  tests/**/*.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "aws-sdk": "^2.598.0",
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.8.0",
+    "eslint-plugin-jest": "^23.1.1",
+    "jest": "^24.9.0",
+    "jest-cli": "^24.9.0",
+    "jest-trx-results-processor": "^1.0.3",
+    "jest-e2e-serverless": "0.0.21",
+    "prettier": "^1.19.1",
+    "serverless-webpack": "^5.3.1",
+    "webpack": "^4.41.4",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "testResultsProcessor": "./tests/jestTrxProcessor.js"
+  }
+}

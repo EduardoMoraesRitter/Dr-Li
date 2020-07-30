@@ -1,0 +1,18 @@
+service: master
+
+provider:
+  name: aws
+  region: us-east-1
+  runtime: nodejs12.x
+  stage: develop
+
+package:
+  individually: true
+
+functions:
+  core:
+    handler: index.handler
+    role: arn:aws:iam::472986803:role/lambda
+    name: master
+    memorySize: 128
+    timeout: 40

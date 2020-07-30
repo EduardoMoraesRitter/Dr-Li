@@ -1,0 +1,17 @@
+[
+  {
+    "table": "chatbot",
+    "serverId": "111111111111111@c.us",
+    "timeout": 7200000,
+    "keyPowerBIbeta": "AAAAAAAAAAAA",
+    "channel": {
+      "selectedChannel": "WHATSAPP",
+      "URL": "AAAAAA.com"
+    },
+    "nlp": {
+      "urlWatson": "gateway-wdc.watsonplatform.net",
+      "workspace": "AAAAAAAAAAAAAAAAAA",
+      "apikey": "AAAAAAAAAAAAAAAAAA"
+    }
+  }
+]

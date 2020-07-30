@@ -1,0 +1,4856 @@
+{
+  "intents": [
+    {
+      "intent": "faq_mascaras",
+      "examples": [
+        {
+          "text": "máscara de pano?"
+        },
+        {
+          "text": "Máscaras caseiras feitas com perfex funcionam?"
+        },
+        {
+          "text": "Usar máscara ajuda a prevenir o contágio?"
+        },
+        {
+          "text": "as máscaras funcionam como EPI?"
+        },
+        {
+          "text": "O uso de máscara previne mesmo?"
+        }
+      ]
+    },
+    {
+      "intent": "toc",
+      "examples": [
+        {
+          "text": "Lavo tudo o tempo todo"
+        },
+        {
+          "text": "desenvolvendo Transtorno Obsessivo Compulsivo"
+        },
+        {
+          "text": "Acho que estou desenvolvendo TOC (Transtorno Obsessivo Compulsivo)."
+        },
+        {
+          "text": "faço limpeza toda hora"
+        },
+        {
+          "text": "limpo o tempo inteiro"
+        },
+        {
+          "text": "Como fazer para diminuir a sensação de que sempre estamos sujos?"
+        }
+      ]
+    },
+    {
+      "intent": "faq_alcool_gel",
+      "examples": [
+        {
+          "text": "alcool gel"
+        },
+        {
+          "text": "Usar álcool gel ajuda a prevenir a contaminação?"
+        },
+        {
+          "text": "Devemos utilizar algool para higienizar as mãos?"
+        },
+        {
+          "text": "álcool 70% é o ideal?"
+        }
+      ]
+    },
+    {
+      "intent": "faq_gargarejo",
+      "examples": [
+        {
+          "text": "Gargarejo com soro fisiológico ajuda a previnir?"
+        },
+        {
+          "text": "vinagre combate o corona vírus?"
+        },
+        {
+          "text": "Fazer gargarejo com agua morna, sal e vinagre previne coronavírus"
+        }
+      ]
+    },
+    {
+      "intent": "saudacao",
+      "examples": [
+        {
+          "text": "como vai"
+        },
+        {
+          "text": "Boa noite, Dr. Li!"
+        },
+        {
+          "text": "eai"
+        },
+        {
+          "text": "boa tarde"
+        },
+        {
+          "text": "bom dia"
+        },
+        {
+          "text": "boa noite"
+        },
+        {
+          "text": "oiiiiiiiiiiiiiiiii"
+        },
+        {
+          "text": "ola"
+        },
+        {
+          "text": "oiiiii"
+        },
+        {
+          "text": "oi"
+        },
+        {
+          "text": "Dr.li"
+        },
+        {
+          "text": "Boa Dr Li"
+        },
+        {
+          "text": "dr"
+        },
+        {
+          "text": "li"
+        },
+        {
+          "text": "blz"
+        }
+      ]
+    },
+    {
+      "intent": "frustrascoes",
+      "examples": [
+        {
+          "text": "como não se frustrar em epoca de pandemia"
+        },
+        {
+          "text": "Como lidar com as frustrações geradas pelo impacto do coronavírus?"
+        },
+        {
+          "text": "como tratar as pessoas frustradas por conta do corona virus"
+        },
+        {
+          "text": "como lidar com frustrações"
+        }
+      ]
+    },
+    {
+      "intent": "faq_alimentos",
+      "examples": [
+        {
+          "text": "Receita de coco que mata Corina Vírus."
+        },
+        {
+          "text": "Ozônio terapia cura Covid-19"
+        },
+        {
+          "text": "Ingestão de alimentos alcalinos combate o Corona Vírus."
+        },
+        {
+          "text": "Alimentos alcalinos evitam coronavírus"
+        },
+        {
+          "text": "Vitamina C Mata o corona Virus."
+        }
+      ]
+    },
+    {
+      "intent": "avaliacao_psicologica",
+      "examples": [
+        {
+          "text": "mental"
+        },
+        {
+          "text": "avaliação psicologica"
+        },
+        {
+          "text": "saúde mental"
+        },
+        {
+          "text": "ssaude psicologica"
+        },
+        {
+          "text": "atendimento psicologico"
+        },
+        {
+          "text": "ajuda psicologica"
+        }
+      ]
+    },
+    {
+      "intent": "inicio",
+      "examples": [
+        {
+          "text": "voltar"
+        },
+        {
+          "text": "reinicio"
+        },
+        {
+          "text": "inicio"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "faq_remedio_aids",
+      "examples": [
+        {
+          "text": "Pessoas soro positivo estão imunes?"
+        },
+        {
+          "text": "Paciente com corona vírus curada em 48 horas com remédios de AIDS."
+        },
+        {
+          "text": "Remédios para tratamento de HIV curam corona vírus?"
+        }
+      ]
+    },
+    {
+      "intent": "nivel_exposicao",
+      "examples": [
+        {
+          "text": "Descobrir meu *Nível de Exposição*"
+        },
+        {
+          "text": "nivel exposicao"
+        }
+      ]
+    },
+    {
+      "intent": "grupo_risco",
+      "examples": [
+        {
+          "text": "Grupo de Risco"
+        },
+        {
+          "text": "Quero saber se sou *Grupo de Risco*"
+        }
+      ]
+    },
+    {
+      "intent": "fake_mascara_china",
+      "examples": [
+        {
+          "text": "Presidente Chinês diz que pandemia é a nova era do socialismo"
+        },
+        {
+          "text": "Produtos importados da China podem conter Corona vírus."
+        },
+        {
+          "text": "Máscaras da China contaminadas"
+        },
+        {
+          "text": "Tribunal Chinês manda matar 20.000 com Corona Vírus."
+        },
+        {
+          "text": "Reportagem de TV Italiana mostra vírus criado em laboratório chinês."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "auxilio_governo",
+      "examples": [
+        {
+          "text": "auxiolio do governo"
+        },
+        {
+          "text": "sobre auxilio"
+        }
+      ]
+    },
+    {
+      "intent": "ansiedade",
+      "examples": [
+        {
+          "text": "Como lidar com a procrastinação nos afazeres com tanto tempo disponível e não se culpar por isso? Como controlar o distúrbio alimentar com o aumento da ansiedade?"
+        },
+        {
+          "text": "Como controlar o distúrbio alimentar?"
+        },
+        {
+          "text": "Como controlar o distúrbio alimentar com o aumento da ansiedade?"
+        },
+        {
+          "text": "Como controlar o distúrbio alimentar e não se culpar por isso?"
+        },
+        {
+          "text": "Como lidar com a procrastinação nos afazeres com tanto tempo disponível ?"
+        }
+      ]
+    },
+    {
+      "intent": "vicios",
+      "examples": [
+        {
+          "text": "lidar com pessoas que costuma usar cocaína"
+        },
+        {
+          "text": "Como lidar com vícios nesse período de quarentena? Qual a recomendação para as famílias nas questões relacionadas a uso abusivo álcool como fuga de contato com este momento?"
+        },
+        {
+          "text": "Como lidar com vícios nesse período de quarentena?"
+        },
+        {
+          "text": "Qual a recomendação para as famílias nas questões relacionadas a uso abusivo álcool como fuga de contato com este momento?"
+        },
+        {
+          "text": "como lidar com uso de drogas"
+        },
+        {
+          "text": "Uso de maconha na quarentena"
+        }
+      ]
+    },
+    {
+      "intent": "fake",
+      "examples": [
+        {
+          "text": "fake news?"
+        },
+        {
+          "text": "Você sabe o que é fake news?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "desmotivados",
+      "examples": [
+        {
+          "text": "pessoas que se sentem desmotivadas em casa?"
+        },
+        {
+          "text": "como ajudar pessoas que se sentem solitárias"
+        },
+        {
+          "text": "Quais sugestões prioritárias e de fácil ação para os que estão em casa e já se sentem solitários e desmotivados?"
+        },
+        {
+          "text": "solitarios e desmotivados"
+        }
+      ]
+    },
+    {
+      "intent": "faq_prender_respiracao",
+      "examples": [
+        {
+          "text": "fiz o teste de segurar a respiracao"
+        },
+        {
+          "text": "o teste de segurar a respiracao por 10 segundos funciona"
+        },
+        {
+          "text": "Segurar a respiração por mais de 10 segundos evita a fibrose nos pulmões."
+        },
+        {
+          "text": "o teste de fibrose segurando a respiracao funciona"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "sintomas",
+      "examples": [
+        {
+          "text": "Dor de garganta"
+        },
+        {
+          "text": "estou com falta de ar"
+        },
+        {
+          "text": "olha tive febre oq faço"
+        },
+        {
+          "text": "preciso de ajudar estou ruim"
+        },
+        {
+          "text": "- Responder *Pesquisa de Sintomas*"
+        },
+        {
+          "text": "estou passando mau, oq eu faço"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "pesquisa_cep",
+      "examples": [
+        {
+          "text": "quantas pessoas tem covid"
+        },
+        {
+          "text": "quantas pessoas tem covid no meu bairro"
+        },
+        {
+          "text": "cep"
+        }
+      ]
+    },
+    {
+      "intent": "pesquisa_nps",
+      "examples": [
+        {
+          "text": "pesquisa"
+        },
+        {
+          "text": "pesquisa nps"
+        }
+      ]
+    },
+    {
+      "intent": "auxilio_data",
+      "examples": [
+        {
+          "text": "qual a data?"
+        },
+        {
+          "text": "📆 Qual a data de pagamento"
+        },
+        {
+          "text": "Qual data de pagamento"
+        },
+        {
+          "text": "que dia é o pagamento"
+        },
+        {
+          "text": "📆 Qual a data de pagamento do auxílio?"
+        }
+      ]
+    },
+    {
+      "intent": "solidao",
+      "examples": [
+        {
+          "text": "Como lidar com a solidão?"
+        },
+        {
+          "text": "O que recomendam para as pessoas que vivem fora do país?"
+        },
+        {
+          "text": "O que recomendam para as pessoas que moram só?"
+        },
+        {
+          "text": "como ajudar pessoas que sentem só?"
+        },
+        {
+          "text": "O que fazer com pessoas que sentem solidão?"
+        }
+      ]
+    },
+    {
+      "intent": "cuidados_prevencao",
+      "examples": [
+        {
+          "text": "prevenção"
+        },
+        {
+          "text": "Cuidados e prevenção"
+        },
+        {
+          "text": "cuidados"
+        },
+        {
+          "text": "quais cuidados devemos ter para prevenir o corona vírua?"
+        },
+        {
+          "text": "Cuidados e prevencao"
+        },
+        {
+          "text": "como se prevenir contra o novo covid-19?"
+        },
+        {
+          "text": "quais os cuidados para prevenir a contaminação?"
+        },
+        {
+          "text": "como se previnir?"
+        },
+        {
+          "text": "uais os cuidados precisamos ter?"
+        }
+      ]
+    },
+    {
+      "intent": "faq_fumantes",
+      "examples": [
+        {
+          "text": "Fumar pode aumentar as chances de pegar o corona vírus?"
+        },
+        {
+          "text": "Quem fuma pode fazer parte do grupo de risco?"
+        },
+        {
+          "text": "Tabaco pode agravar os sintomas do corona virus?"
+        },
+        {
+          "text": "Fumar aumenta de forma grave o risco de infecção por corona virus?"
+        }
+      ]
+    },
+    {
+      "intent": "faq_bafometro",
+      "examples": [
+        {
+          "text": "Passar alcool gel no rosto previne a contaminação?"
+        },
+        {
+          "text": "alcool gel altera o resultado do bafometro"
+        },
+        {
+          "text": "Utilizar álcool gel nas mãos como prevenção do Corona vírus altera o bafometro?"
+        },
+        {
+          "text": "Enxaguar a boca com álcool gel combate o corona vírus?"
+        }
+      ]
+    },
+    {
+      "intent": "teste",
+      "examples": [
+        {
+          "text": "teste mental"
+        },
+        {
+          "text": "teste"
+        }
+      ]
+    },
+    {
+      "intent": "faq_infertilidade",
+      "examples": [
+        {
+          "text": "corona vírus deixa brocha"
+        },
+        {
+          "text": "peguei covid-19 vou ter filhos"
+        },
+        {
+          "text": "nao vou ter filhos se oegar corona"
+        },
+        {
+          "text": "o virus do corona deixa os homens impotentes"
+        },
+        {
+          "text": "a pessoa que pegar corona virus fica esteril?"
+        },
+        {
+          "text": "Pesquisa feita por cientistas chineses conclui que a maioria dos pacientes do sexo masculino se torna infertil."
+        },
+        {
+          "text": "vou ficar infértil se pegar corona virus"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "faq_cafe",
+      "examples": [
+        {
+          "text": "quem toma café fica imune ao corona ?"
+        },
+        {
+          "text": "Beber várias doses de café aumenta a imunidade ?"
+        },
+        {
+          "text": "Café previne corona virus?"
+        },
+        {
+          "text": "ouvi dizer que cafe ajuda contra o corona"
+        },
+        {
+          "text": "posso beber cloro resolve"
+        },
+        {
+          "text": "Café forte combate corona virus?"
+        }
+      ]
+    },
+    {
+      "intent": "coletividade",
+      "examples": [
+        {
+          "text": "união e coletividade para o enfrentamento da quarentena?"
+        },
+        {
+          "text": "Qual a importância de coletividade para o enfrentamento da quarentena?"
+        },
+        {
+          "text": "coletividade para o enfrentamento da quarentena?"
+        },
+        {
+          "text": "importância de coletividade para o enfrentamento da quarentena?"
+        }
+      ]
+    },
+    {
+      "intent": "auxilio_tempo",
+      "examples": [
+        {
+          "text": "quanto tempo será pago o auxílio?"
+        },
+        {
+          "text": "💰 Por quanto tempo será pago o auxílio?"
+        },
+        {
+          "text": "qual tempo vai ser pago o auxilio"
+        },
+        {
+          "text": "por quanto tempo o auxilio será pago"
+        }
+      ]
+    },
+    {
+      "intent": "profissionais_saude",
+      "examples": [
+        {
+          "text": "transtornos mentais e medicos"
+        },
+        {
+          "text": "medicos"
+        },
+        {
+          "text": "enfermeiros"
+        },
+        {
+          "text": "profissionais de saude"
+        },
+        {
+          "text": "cuidados com profissionais de saude"
+        },
+        {
+          "text": "Quais os impactos da pandemia principalmente para os profissionais da saúde e pessoas com transtornos mentais?"
+        },
+        {
+          "text": "cuidados com pessoas com transtornos mentais"
+        },
+        {
+          "text": "enfermeiros e profissionais de saude"
+        }
+      ]
+    },
+    {
+      "intent": "faq_cura_tratamento",
+      "examples": [
+        {
+          "text": "Coronavirús fica vivo por 9 dias"
+        },
+        {
+          "text": "Governo do Brasil anuncia vacina para Covid-19"
+        },
+        {
+          "text": "Verdades e mentiras do CREMERJ sobre coronavírus."
+        },
+        {
+          "text": "Cloroquina e hidroxidocloroquina passam a ser usadas no Brasil contra covid-19."
+        },
+        {
+          "text": "Russia anuncia cura para covid-19"
+        }
+      ]
+    },
+    {
+      "intent": "faq_remedio_piolho",
+      "examples": [
+        {
+          "text": "Anti-pulga acaba com coronavirus?"
+        },
+        {
+          "text": "se eu usar remedio de piolho vou matar o corona virus"
+        },
+        {
+          "text": "Remédio de piolho mata corona virus"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sim_nao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "nao",
+          "synonyms": [
+            "n",
+            "não",
+            "estou nao",
+            "👎",
+            "negativo",
+            "ninguem",
+            "nenhuma",
+            "nao tem",
+            "no"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sim",
+          "synonyms": [
+            "s",
+            "estou sim",
+            "positivo",
+            "👍",
+            "tem sim",
+            "correto",
+            "si"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "small_talks",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "agradecimento_emoji",
+          "synonyms": [
+            "Show",
+            "Top",
+            "Tá jóia",
+            "Legal",
+            "Ok",
+            "Blz"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "despedida",
+          "synonyms": [
+            "Até a próxima",
+            "Encerrar",
+            "Até",
+            "tchau",
+            "Até logo",
+            "Até breve",
+            "adeus"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "nome",
+          "synonyms": [
+            "Quem é você?",
+            "Qual seu nome?",
+            "Qual o seu nome?"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cumprimento",
+          "synonyms": [
+            "Tudo bem com você?",
+            "Como está sendo seu dia?",
+            "Como você está?",
+            "Você está bem?",
+            "Como vai você?"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "elogio",
+          "synonyms": [
+            "Hyundai é top",
+            "Hyundai é a melhor",
+            "Adoro a Hyundai"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "agradecimento",
+          "synonyms": [
+            "obrigada",
+            "agradecida",
+            "agradecido",
+            "grata",
+            "valeu",
+            "grato",
+            "Obrigado",
+            "gratidão"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "xingamento",
+          "synonyms": [
+            "saco",
+            "xaninha",
+            "xana",
+            "xoxota",
+            "xochota",
+            "xota",
+            "xibiu",
+            "xereca",
+            "xerereca",
+            "xavasca",
+            "viadao",
+            "viado",
+            "veado",
+            "veada",
+            "vargina",
+            "vagabundo",
+            "troxa",
+            "trouxa",
+            "troucha",
+            "trocha",
+            "tezudo",
+            "tezao",
+            "tezuda",
+            "testuda",
+            "tarado",
+            "tarada",
+            "siririca",
+            "sapatao",
+            "safados",
+            "safada",
+            "rabuda",
+            "rabo",
+            "rabao",
+            "puxasaco",
+            "puxa-saco",
+            "prostituto",
+            "prostituta",
+            "prega",
+            "peru",
+            "piru",
+            "piroca",
+            "porrada",
+            "porcaria",
+            "peida",
+            "peido",
+            "pau",
+            "pentelho",
+            "perereca",
+            "pica",
+            "piranha",
+            "palhacada",
+            "otarios",
+            "otaria",
+            "nojo",
+            "nojeira",
+            "nojento",
+            "masturbar",
+            "masturba",
+            "cachorro",
+            "ladrona",
+            "macaca",
+            "macaco",
+            "ladroreira",
+            "ladroes",
+            "ladrao",
+            "ladra",
+            "iscroto",
+            "escrotos",
+            "iscrota",
+            "imbeciu",
+            "idiotas",
+            "idiotice",
+            "homossexual",
+            "homo-sexual",
+            "gonorrea",
+            "gonorreia",
+            "gay",
+            "fodido",
+            "fodida",
+            "fode",
+            "fedorento",
+            "fedorenta",
+            "estupido",
+            "estupides",
+            "estupidez",
+            "estupida",
+            "escrota",
+            "egua",
+            "doido",
+            "doida",
+            "demonio",
+            "debiloide",
+            "cuzao",
+            "cruz credo",
+            "cruz-credo",
+            "cornudo",
+            "cornuda",
+            "corno",
+            "corna",
+            "chifrudo",
+            "chifruda",
+            "chereca",
+            "checheca",
+            "cassete",
+            "casseta",
+            "canalhas",
+            "canalha",
+            "cagao",
+            "cagar",
+            "cadela",
+            "cachorra",
+            "busseta",
+            "burra",
+            "brioco",
+            "bosseta",
+            "boquete",
+            "boceta",
+            "bixa",
+            "biscate",
+            "bisca",
+            "bicha",
+            "babaovo",
+            "baba-ovo",
+            "babaca",
+            "ferrar",
+            "fudeu",
+            "se fuder",
+            "cu",
+            "vaca",
+            "vadia",
+            "vagabunda",
+            "seu cu",
+            "caramba",
+            "foder",
+            "puta",
+            "pilantra",
+            "energumeno",
+            "vai se foder",
+            "teu cu",
+            "boçal",
+            "escroto",
+            "joça",
+            "bobão",
+            "jumento",
+            "burro",
+            "bosta",
+            "merda",
+            "cacete",
+            "caralho",
+            "pqp",
+            "buceta",
+            "porra",
+            "fdp",
+            "fila da puta",
+            "desgraçado",
+            "maldito",
+            "bastardo",
+            "otario",
+            "vtnc",
+            "vai tomar no cu",
+            "idiota",
+            "imbecil",
+            "anencefalo",
+            "lixo"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "inicio",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "reiniciar",
+          "synonyms": [
+            "voltar"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "inicio",
+          "synonyms": [
+            "início",
+            "reiniciar"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "CEP",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "CEP",
+          "patterns": [
+            "[0-9]{5}(-| |)[\\d]{3}"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "sintomas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Perda olfato paladar",
+          "synonyms": [
+            "perda de olfato",
+            "perde de paladar"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Dor",
+          "synonyms": [
+            "Dor de cabeça",
+            "Dor de garganta",
+            "Dor no corpo",
+            "Diarreia",
+            "Secreção nasal ou espirros"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "desanimado",
+          "synonyms": [
+            "desânimo",
+            "indiferente",
+            "baixo astral"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "desvalorizado",
+          "synonyms": [
+            "sem valor"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tosse",
+          "synonyms": [
+            "tosse",
+            "tosse seca",
+            "com tosse"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "febre",
+          "synonyms": [
+            "febre",
+            "febre alta",
+            "com febre"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cansaço",
+          "synonyms": [
+            "Cansaco",
+            "falta de ar",
+            "sem ar",
+            "dificuldade para respirar"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "contato",
+          "synonyms": [
+            "sim entrei em contao",
+            "tive contato"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pensamentos_ruins",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "desinteresse",
+          "synonyms": [
+            "desinteressado",
+            "perda interesse"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "agitacao",
+          "synonyms": [
+            "se sente agitado"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pensamentos negativos",
+          "synonyms": [
+            "maus pensamentos",
+            "pensamentos ruins"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "apetite",
+          "synonyms": [
+            "perde de apetite"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "insonia",
+          "synonyms": [
+            "perda de sono"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "irritacao",
+          "synonyms": [
+            "irritado"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "falta de concentracao",
+          "synonyms": [
+            "concentrar"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_28_1589496071825",
+      "event_name": "focus",
+      "dialog_node": "handler_30_1589496071825",
+      "previous_sibling": "handler_29_1589496071825"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_28_1589496071825",
+      "event_name": "input",
+      "dialog_node": "handler_29_1589496071825"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_4_1589196675182",
+      "conditions": "true",
+      "dialog_node": "node_3_1589305682406",
+      "previous_sibling": "node_10_1589305679399"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "numero autorizado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1589196675182",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1589305549866"
+      },
+      "conditions": "$validando",
+      "dialog_node": "node_10_1589305679399"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1589321190673",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1589321190683",
+      "previous_sibling": "handler_2_1589321190683"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_10_1589321190673",
+      "event_name": "input",
+      "dialog_node": "handler_2_1589321190683"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "😉"
+              },
+              {
+                "text": "😊"
+              },
+              {
+                "text": "😃"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1589602673042",
+      "dialog_node": "response_7_1589603030528",
+      "previous_sibling": "response_4_1589603026227"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1589602673042",
+      "dialog_node": "slot_6_1589603014127",
+      "previous_sibling": "response_7_1589603030528"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "De nada! 😃"
+              },
+              {
+                "text": "Por nada! 😉"
+              },
+              {
+                "text": "Eu que agradeço! 😍"
+              },
+              {
+                "text": "Disponha! 🙂"
+              },
+              {
+                "text": "Às ordens! 🤝"
+              },
+              {
+                "text": "Imagina! 😃"
+              },
+              {
+                "text": "Por nada, não há de quê! 😉"
+              },
+              {
+                "text": "De nada! Se precisar de qualquer coisa, fale comigo por aqui. 😊"
+              },
+              {
+                "text": "Espero ter ajudado, agradeço seu interesse e volte quando quiser! 🤗"
+              },
+              {
+                "text": "Opa! Por nada, ficamos muito contentes com a sua satisfação. 😃"
+              },
+              {
+                "text": "Eu fico muito feliz pela confiança em nosso trabalho. Saiba que estou a disposição para esclarecer as suas dúvidas! 😃"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1589602673042",
+      "dialog_node": "response_4_1589603026227"
+    },
+    {
+      "type": "standard",
+      "parent": "node_8_1590891810289",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1590891810289"
+      },
+      "conditions": "true",
+      "dialog_node": "node_10_1590891838134",
+      "previous_sibling": "node_2_1590891845020"
+    },
+    {
+      "type": "standard",
+      "title": "Avaliacao_psicologica_habitos_alimentares",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você tem tido mudanças nos hábitos alimentares? 😋"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "template",
+            "options": [],
+            "description": "test_button3",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1590891810289",
+      "context": {
+        "8P_insonia": "@sim_nao",
+        "saude_mental": "<? @sim_nao:sim? $saude_mental+10 : $saude_mental ?>",
+        "mensagem_recontato": "<? @sim_nao:sim? $mensagem_recontato+'\n\n - *dificuldade para dormir ou insônia*' : $mensagem_recontato?>"
+      },
+      "conditions": "@sim_nao || @sintomas:insonia",
+      "dialog_node": "node_2_1590891845020"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_6_1590886953458",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1590886953458"
+      },
+      "conditions": "true",
+      "dialog_node": "node_12_1590886953458",
+      "previous_sibling": "node_7_1590886953458"
+    },
+    {
+      "type": "standard",
+      "title": "Avaliacao_psicologica_dificuldade_concentracao",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você tem dificuldade de concentração? 🤨"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "template",
+            "options": [],
+            "description": "test_button3",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1590886953458",
+      "context": {
+        "4P_sem_valor": "@sim_nao",
+        "saude_mental": "<? @sim_nao:sim? $saude_mental+10 : $saude_mental ?>",
+        "mensagem_recontato": "<? @sim_nao:sim? $mensagem_recontato+'\n\n - *não tem valor*' : $mensagem_recontato?>"
+      },
+      "conditions": "@sim_nao || @sintomas:desvalorizado",
+      "dialog_node": "node_7_1590886953458"
+    },
+    {
+      "type": "standard",
+      "title": "auxilio_governo _sim",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo. E você recebeu uma resposta  com o motivo pelo qual não recebeu o seu *Auxílio Emergencial*?🤔"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1589506727007",
+      "context": {
+        "2P_auxilio_governo": "@sim_nao"
+      },
+      "conditions": "@sim_nao:sim",
+      "dialog_node": "node_7_1589506910766",
+      "previous_sibling": "node_3_1589507149166"
+    },
+    {
+      "type": "standard",
+      "title": "auxilio_governo_nao",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo. Veja abaixo as maiores dúvidas das pessoas que já receberam o *Auxílio Emergencial*. \n\nhttps://auxilio.caixa.gov.br/#/inicio"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1589506727007",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1589602675372"
+      },
+      "conditions": "@sim_nao:nao",
+      "dialog_node": "node_3_1589507149166"
+    },
+    {
+      "type": "standard",
+      "title": "resposta_nao",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Juntos somos mais fortes!\n\nEstamos passando por um momento difícil, precisamos nos proteger e proteger quem amamos. \n\nSeu nível de exposição ao vírus não é tão alto quanto aqueles que trabalham na área da saúde. Mas precisamos ficar de olho, e tomar todos os cuidados necessários. ⚠💝🙏"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_21_1589496071825",
+      "context": {
+        "4P_saude": "@sim_nao "
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_34_1589496071825"
+      },
+      "conditions": "@sim_nao:nao",
+      "dialog_node": "node_1_1589503538300",
+      "previous_sibling": "node_24_1589496071825"
+    },
+    {
+      "type": "standard",
+      "title": "resposta_sim",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Juntos somos mais fortes! Você trabalha ou convive com alguém que está na linha de frente no combate ao coronavírus, então seu nível de exposição ao vírus é alto. \n\nPor isso é importante acompanharmos de perto sua saúde, e claro, da sua família também.\n\nEm alguns dias eu passo por aqui para saber como vocês estão. ⚠💝"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_21_1589496071825",
+      "context": {
+        "4P_saude": "@sim_nao"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_34_1589496071825"
+      },
+      "conditions": "@sim_nao:sim",
+      "dialog_node": "node_24_1589496071825"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1589321195455",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1589321195458",
+      "previous_sibling": "handler_3_1589321195458"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_9_1589321195455",
+      "event_name": "input",
+      "dialog_node": "handler_3_1589321195458"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_4_1590886953458",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1590886953458"
+      },
+      "conditions": "true",
+      "dialog_node": "node_14_1590886953458",
+      "previous_sibling": "node_5_1590886953458"
+    },
+    {
+      "type": "standard",
+      "title": "Avaliacao_psicologica_pensamentos_ruins",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você tem pensamentos catastróficos ou ruins?🤔"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "template",
+            "options": [],
+            "description": "test_button3",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1590886953458",
+      "context": {
+        "saude_mental": "<? @sim_nao:sim? $saude_mental+10 : $saude_mental ?>",
+        "2P_perda_interesse": "@sim_nao",
+        "mensagem_recontato": "<? @sim_nao:sim? $mensagem_recontato+'\n\n - *perdeu o interesse* em atividades que antes apreciava' : $mensagem_recontato?>"
+      },
+      "conditions": "@sim_nao || @sintomas:desinteresse",
+      "dialog_node": "node_5_1590886953458"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_10_1589306201959",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1589306201959"
+      },
+      "conditions": "true",
+      "dialog_node": "node_2_1589500752080",
+      "previous_sibling": "node_1_1589306268207"
+    },
+    {
+      "type": "standard",
+      "title": "Perguntas_sintomas_dificuldade Respiratória",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "E em sua casa, alguém sentiu ou está sentindo dificuldade para respirar, *Cansaço ou Falta de Ar*? 😤"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "template",
+            "options": [],
+            "description": "test_button3",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1589306201959",
+      "context": {
+        "sintomas_nota": "<? @sim_nao:sim? $sintomas_nota+10 : $sintomas_nota ?>",
+        "mensagem_recontato": "<? @sim_nao:sim? $mensagem_recontato+'\n\n - *contato* com pessoas que testaram positivo para COVID-19' : $mensagem_recontato?>",
+        "1P_sintomas_contato_covid": "@sim_nao"
+      },
+      "conditions": "@sim_nao || @sintomas:contato",
+      "dialog_node": "node_1_1589306268207"
+    },
+    {
+      "type": "standard",
+      "title": "Avaliacao_nivel_risco_erro",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "erro na nota"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1589306599795",
+      "conditions": "true",
+      "dialog_node": "node_2_1589395349473",
+      "previous_sibling": "node_2_1589395620666"
+    },
+    {
+      "type": "standard",
+      "title": "Avaliacao_nivel_risco_baixo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O nível de risco é baixo, por isso vou te acompanhar para ver se os sintomas continuam. Permaneça em casa, cumprindo as ordens da OMS.\n\nNesse momento não precisa ir ao hospital, mas se os sintomas piorarem, basta me chamar, que te oriento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1589306599795",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1589321217733"
+      },
+      "conditions": "$sintomas_nota<=9",
+      "dialog_node": "node_3_1589306622873",
+      "previous_sibling": "node_2_1589306617355"
+    },
+    {
+      "type": "standard",
+      "title": "Avaliacao_nivel_risco_alto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "É necessário buscarmos ajuda médica, pois o nível é alto e grave. \n\nMas não se preocupe, para te auxiliar melhor, vou avisar os profissionais da saúde, e em alguns minutos entrarão em contato."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1589306599795",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1589643279295"
+      },
+      "conditions": "$sintomas_nota",
+      "dialog_node": "node_2_1589395620666",
+      "previous_sibling": "node_1_1589395454308"
+    },
+    {
+      "type": "standard",
+      "title": "Avaliacao_nivel_risco_medio",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O risco é de nível médio, por isso vou avisar os profissionais de saúde para manterem um acompanhamento mais profundo e diário."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1589306599795",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1589643279295"
+      },
+      "conditions": "$sintomas_nota<=19",
+      "dialog_node": "node_1_1589395454308",
+      "previous_sibling": "node_3_1589306622873"
+    },
+    {
+      "type": "standard",
+      "title": "Avaliacao_nivel_risco_nenhum",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo, vocês estão bem, porem os sintomas podem aparecer em 5 dias então se tiver alguém com esses sintomas pode me chamar.\n\nE de qualquer forma, na próxima semana, entro em contato novamente."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1589306599795",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1589321217733"
+      },
+      "conditions": "$sintomas_nota:0",
+      "dialog_node": "node_2_1589306617355"
+    },
+    {
+      "type": "standard",
+      "title": "Perguntas_sintomas_informa_novamente",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Vamos tentar novamente!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1590886953458",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1590886953458"
+      },
+      "conditions": "true",
+      "dialog_node": "node_16_1590886953458",
+      "previous_sibling": "node_3_1590886953458"
+    },
+    {
+      "type": "standard",
+      "title": "Avaliacao_psicologica_desanimado",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você se sentiu *triste* ou *desanimado* nas últimas semanas? 😔"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "template",
+            "options": [],
+            "description": "test_button3",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1590886953458",
+      "context": {
+        "saude_mental": 0
+      },
+      "conditions": "",
+      "dialog_node": "node_3_1590886953458"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1589306268207",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1589306268207"
+      },
+      "conditions": "true",
+      "dialog_node": "node_6_1589500770186",
+      "previous_sibling": "node_4_1589306432029"
+    },
+    {
+      "type": "standard",
+      "title": "Perguntas_sintomas_febre",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Suas respostas estão ajudando muito. \n\nBom, alguém na moradia teve *febre* recentemente? 🤒"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "template",
+            "options": [],
+            "description": "test_button3",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1589306268207",
+      "context": {
+        "sintomas_nota": "<? @sim_nao:sim? $sintomas_nota+10 : $sintomas_nota ?>",
+        "mensagem_recontato": "<? @sim_nao:sim? $mensagem_recontato+'\n\n - dificuldade para respirar , *Cansaço ou Falta de Ar*' : $mensagem_recontato?>",
+        "2P_sintomas_falta_ar": "@sim_nao"
+      },
+      "conditions": "@sim_nao || @sintomas:Cansaço",
+      "dialog_node": "node_4_1589306432029"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1589603014127",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1589603014167",
+      "previous_sibling": "handler_8_1589603014167"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_6_1589603014127",
+      "event_name": "input",
+      "dialog_node": "handler_8_1589603014167"
+    },
+    {
+      "type": "standard",
+      "title": "reforço",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_8_1589643261715",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1589643279295"
+      },
+      "conditions": "$contexto==\"confirma_retorno\" && true",
+      "dialog_node": "node_6_1589647051037",
+      "previous_sibling": "node_1_1589644328962"
+    },
+    {
+      "type": "standard",
+      "title": "nao",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tudo bem, se precisar de qualquer informação ou ajuda, é só me chamar. Estou à disposição sempre.  #Juntossomosmaisfortes 🤜🤛"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1589643261715",
+      "context": {
+        "contexto": ""
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1589321217733"
+      },
+      "conditions": "@sim_nao:nao && $contexto==\"confirma_retorno\"",
+      "dialog_node": "node_1_1589644328962",
+      "previous_sibling": "node_6_1589644199747"
+    },
+    {
+      "type": "standard",
+      "title": "sim",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo, vou enviar mensagens para acompanhá-los. #Juntossomosmaisfortes 🤜🤛"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1589643261715",
+      "actions": [
+        {
+          "name": "setSchedule",
+          "type": "client",
+          "parameters": {
+            "Arn": "arn:aws:lambda:us-east-1:767577533190:function:API",
+            "contexto": "pergunta_sobre_sintomas",
+            "dataHora": "<? now().plusMinutes($sintomas_nota) ?>",
+            "messages": [
+              {
+                "text": "$mensagem_recontato",
+                "response_type": "text"
+              },
+              {
+                "text": "Informei um  agente de saúde da sua região, pode me informar com mais detalhes. Para que os agentes de saúde possam entrar em contato com você.",
+                "response_type": "text"
+              }
+            ]
+          },
+          "credentials": "null",
+          "result_variable": "null"
+        }
+      ],
+      "context": {
+        "contexto": "cep",
+        "timezone": "GMT-3"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1589321217733"
+      },
+      "conditions": "@sim_nao:sim &&  $contexto==\"confirma_retorno\" || @sys-number:88",
+      "dialog_node": "node_6_1589644199747",
+      "previous_sibling": "node_8_1589643279295"
+    },
+    {
+      "type": "standard",
+      "title": "pergunta de retorno",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Me preocupo com a sua saúde e de seus familiares. É  importante mantermos contato durante esse período. Posso enviar mensagens para saber como vocês estão?  💝"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "template",
+            "options": [],
+            "description": "test_button3",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1589643261715",
+      "context": {
+        "contexto": "confirma_retorno"
+      },
+      "dialog_node": "node_8_1589643279295"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Agradecemos por sua colaboração. E de acordo com as suas respostas. 👍🤗"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1589486707947",
+      "context": {
+        "grupo_nota": "<? @sim_nao:sim? $grupo_nota+1 : $grupo_nota ?>",
+        "4P_grupo_risco_acima60": "@sim_nao"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1589486812567"
+      },
+      "conditions": "@sim_nao",
+      "dialog_node": "node_1_1589486761562"
+    },
+    {
+      "type": "standard",
+      "title": "acima de 60 anos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Por último, há alguém na residência com idade acima de 60 anos? 👴👵"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1589486607006",
+      "context": {
+        "grupo_nota": "<? @sim_nao:sim? $grupo_nota+1 : $grupo_nota ?>",
+        "3P_grupo_risco_obesidade": "@sim_nao"
+      },
+      "conditions": "@sim_nao",
+      "dialog_node": "node_6_1589486707947"
+    },
+    {
+      "type": "standard",
+      "title": "Perguntas_sintomas_informa_novamente",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Vamos tentar novamente!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1589306145552",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1589306145552"
+      },
+      "conditions": "true",
+      "dialog_node": "node_5_1589306217538",
+      "previous_sibling": "node_10_1589306201959"
+    },
+    {
+      "type": "standard",
+      "title": "Perguntas_sintomas_contatos_outras_pessoas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo, e alguém na moradia teve *contato* com pessoas que testaram positivo para COVID-19? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "template",
+            "options": [],
+            "description": "test_button3",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1589306145552",
+      "context": {
+        "numero_moradores": "@sys-number"
+      },
+      "conditions": "@sys-number<=200",
+      "dialog_node": "node_10_1589306201959"
+    },
+    {
+      "type": "standard",
+      "title": "avaliacao grupo de risco",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1589495832601",
+      "actions": [
+        {
+          "name": "salvaDados",
+          "type": "client",
+          "parameters": {
+            "dados": {
+              "grupo_risco": "$grupo_risco",
+              "2P_grupo_risco_asma": "$2P_grupo_risco_asma",
+              "4P_grupo_risco_acima60": "$4P_grupo_risco_acima60",
+              "3P_grupo_risco_obesidade": "$3P_grupo_risco_obesidade",
+              "1P_grupo_risco_diabete_pressao": "$1P_grupo_risco_diabete_pressao"
+            }
+          },
+          "credentials": "null",
+          "result_variable": "null"
+        }
+      ],
+      "context": {},
+      "dialog_node": "node_16_1589495832603",
+      "previous_sibling": "node_4_1589506727004"
+    },
+    {
+      "type": "standard",
+      "title": "auxilio_governo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Posso te ajudar com dúvidas sobre o *Auxílio Emergencial*.\n\nMas antes de iniciarmos, você recebeu o auxílio do governo?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1589495832601",
+      "context": {
+        "taxi": "",
+        "1P_auxilio_governo": "@sim_nao"
+      },
+      "conditions": "#auxilio_governo ||  (@sys-number:4 &&  $taxi == \"numero\")",
+      "dialog_node": "node_4_1589506727004"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_5_1589394874439",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1589394874439"
+      },
+      "conditions": "true",
+      "dialog_node": "node_10_1589500847004",
+      "previous_sibling": "node_2_1589306573001"
+    },
+    {
+      "type": "standard",
+      "title": "Perguntas_sintomas_agradecimento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Agradecemos a sua colaboração. E de acordo com as suas respostas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1589394874439",
+      "context": {
+        "sintomas_nota": "<? @sim_nao:sim? $sintomas_nota+1 : $sintomas_nota ?>",
+        "6P_sintomas_dores": "@sim_nao",
+        "mensagem_recontato": "<? @sim_nao:sim? $mensagem_recontato+'\n\n - *Dor de cabeça;* *Dor de garganta;* *Dor no corpo;* *Diarreia;* *Secreção nasal ou espirros;*' : $mensagem_recontato?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1589306599795"
+      },
+      "conditions": "@sim_nao || @sintomas:Dor",
+      "dialog_node": "node_2_1589306573001"
+    },
+    {
+      "type": "standard",
+      "title": "avaliacao grupo de risco",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_8_1589321139716",
+      "actions": [
+        {
+          "name": "salvaDados",
+          "type": "client",
+          "parameters": {
+            "dados": {
+              "grupo_risco": "$grupo_risco",
+              "2P_grupo_risco_asma": "$2P_grupo_risco_asma",
+              "4P_grupo_risco_acima60": "$4P_grupo_risco_acima60",
+              "3P_grupo_risco_obesidade": "$3P_grupo_risco_obesidade",
+              "1P_grupo_risco_diabete_pressao": "$1P_grupo_risco_diabete_pressao"
+            }
+          },
+          "credentials": "null",
+          "result_variable": "null"
+        }
+      ],
+      "context": {
+        "grupo_risco": "<? $grupo_nota >= 1 ? 'sim' : 'não' ?>"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "dialog_node": "node_7_1589486812567",
+      "previous_sibling": "node_2_1589321161355"
+    },
+    {
+      "type": "standard",
+      "title": "diabete ou pressão alta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Estou aqui para acompanhar você e sua família e ajudá-los nessa pandemia. \n\nVou fazer apenas 4 perguntas para saber se dentro da sua residência existem pessoas no grupo de risco. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Vamos lá! Em sua casa alguém sofre com diabetes ou pressão alta? 💊"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1589321139716",
+      "context": {
+        "taxi": "",
+        "grupo_nota": 0
+      },
+      "conditions": "#grupo_risco || (@sys-number:2 &&  $taxi == \"numero\")",
+      "dialog_node": "node_2_1589321161355"
+    },
+    {
+      "type": "standard",
+      "parent": "node_9_1589507413556",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1589602675372"
+      },
+      "conditions": "true",
+      "dialog_node": "node_1_1589614976759"
+    },
+    {
+      "type": "standard",
+      "title": "saida_esporadicas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Última pergunta, você ou alguém que mora com você, vai ao mercado, bancos ou praças durante a quarentena? 🏬🚶‍♂"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_22_1589496071825",
+      "context": {
+        "2P_atendimento_publico": "@sim_nao"
+      },
+      "conditions": "@sim_nao",
+      "dialog_node": "node_23_1589496071825"
+    },
+    {
+      "type": "standard",
+      "title": "trabalho_area_saude",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você ou alguém que mora com você trabalha na área da saúde, em hospital, UBS, clínica?❓🚑"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_23_1589496071825",
+      "context": {
+        "3P_saida_esporadica": "@sim_nao"
+      },
+      "conditions": "@sim_nao",
+      "dialog_node": "node_21_1589496071825"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_5_1590886953458",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1590886953458"
+      },
+      "conditions": "true",
+      "dialog_node": "node_13_1590886953458",
+      "previous_sibling": "node_6_1590886953458"
+    },
+    {
+      "type": "standard",
+      "title": "Avaliacao_psicologica_sem_valor",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você sente que não tem valor? 😕"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "template",
+            "options": [],
+            "description": "test_button3",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1590886953458",
+      "context": {
+        "saude_mental": "<? @sim_nao:sim? $saude_mental+10 : $saude_mental ?>",
+        "3P_catastrofico": "@sim_nao",
+        "mensagem_recontato": "<? @sim_nao:sim? $mensagem_recontato+'\n\n - pensamentos *catastróficos ou ruins*' : $mensagem_recontato?>"
+      },
+      "conditions": "@sim_nao || @sintomas:pensamentos_ruins",
+      "dialog_node": "node_6_1590886953458"
+    },
+    {
+      "type": "standard",
+      "title": "resposta_nao",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tudo bem, se precisar de qualquer informação ou ajuda, é só me chamar. Estou à disposição sempre.  #Juntossomosmaisfortes 🤜🤛"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_20_1590886953458",
+      "conditions": "@sim_nao:nao",
+      "dialog_node": "node_1_1590907667044",
+      "previous_sibling": "node_4_1590907659502"
+    },
+    {
+      "type": "standard",
+      "title": "resposta_sim",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, Vou te encaminhar para um grupo que fará as reuniões com hora marcada. 👍\n#JUNTOSSOMOSMAISFORTES"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_20_1590886953458",
+      "conditions": "@sim_nao:sim",
+      "dialog_node": "node_4_1590907659502"
+    },
+    {
+      "type": "standard",
+      "title": "solicita nota",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Uma pergunta bem rápida, para eu melhorar meu conhecimento.\n\nEm uma escala de 0 a 5 qual a probabilidade de você me recomendar para um amigo ou familiar? 😃"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1589501112364",
+      "context": {
+        "contexto": ""
+      },
+      "conditions": "$contexto=='nps' || #pesquisa_nps ||   $contexto == \"nota\"",
+      "dialog_node": "node_4_1589501120359"
+    },
+    {
+      "type": "standard",
+      "title": "Avaliacao_nivel_risco",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_7_1589306496382",
+      "actions": [
+        {
+          "name": "salvaDados",
+          "type": "client",
+          "parameters": {
+            "dados": {
+              "sintomas_nota": "$sintomas_nota",
+              "nivel_sintomas": "$nivel_sintomas",
+              "numero_moradores": "$numero_moradores",
+              "3P_sintomas_febre": "$3P_sintomas_febre",
+              "4P_sintomas_tosse": "$4P_sintomas_tosse",
+              "6P_sintomas_dores": "$6P_sintomas_dores",
+              "2P_sintomas_falta_ar": "$2P_sintomas_falta_ar",
+              "1P_sintomas_contato_covid": "$1P_sintomas_contato_covid",
+              "5P_sintomas_olfato_paladar": "$5P_sintomas_olfato_paladar"
+            }
+          },
+          "credentials": "null",
+          "result_variable": "null"
+        }
+      ],
+      "context": {
+        "contexto": "",
+        "nivel_sintomas": "<? $sintomas_nota >= 20 ? 'alto' : $sintomas_nota >= 10 ? 'medio' : $sintomas_nota >= 1 ? 'baixo' : 'nenhum' ?>"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "",
+      "dialog_node": "node_4_1589306599795",
+      "previous_sibling": "node_9_1589306145552"
+    },
+    {
+      "type": "standard",
+      "title": "Perguntas_sintomas_numero_moradores",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Farei 6 perguntas relacionadas a sua saúde e de sua família. \n\nAssim venceremos juntos essa batalha."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Quantas pessoas *moram* em sua residência?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1589306496382",
+      "context": {
+        "taxi": "",
+        "sintomas_nota": 0
+      },
+      "conditions": "#sintomas || (@sys-number:1 &&  $taxi == \"numero\")",
+      "dialog_node": "node_9_1589306145552"
+    },
+    {
+      "type": "standard",
+      "title": "Solitarios_desmotivados",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Retomar estratégias e ferramentas de cuidado que tenha usado em momentos de crise ou sofrimento e ações que trouxeram sensação de maior estabilidade emocional;"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Investir em exercícios e ações que auxiliem na redução do nível de estresse agudo (meditação, leitura, exercícios de respiração, entre outros mecanismos que auxiliem a situar o pensamento no momento presente), bem como estimular a retomada de experiências e habilidades usadas em tempos difíceis do passado para gerenciar emoções durante a epidemia."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1589617329598",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1589602675372"
+      },
+      "conditions": "$contexto == \"prevencao\" && #desmotivados",
+      "dialog_node": "node_3_1589619476323",
+      "previous_sibling": "node_2_1589619270936"
+    },
+    {
+      "type": "standard",
+      "title": "Vicios",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A recomendação é evitar o uso de tabaco, álcool ou outras drogas para lidar com as emoções. Quando a primeira fase da epidemia não recebe um suporte adequado em saúde mental e atenção psicossocial, pode-se encontrar, depois, um grande número de pessoas com problemas como depressão, consumo excessivo de álcool e outras drogas, comportamento violento etc."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1589617329598",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1589602675372"
+      },
+      "conditions": "$contexto == \"prevencao\" && #vicios",
+      "dialog_node": "node_6_1589618625993",
+      "previous_sibling": "node_4_1589617819747"
+    },
+    {
+      "type": "standard",
+      "title": "Frustracoes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entre as estratégias de cuidado psíquico em situação de pandemia, destacam-se, entre outras:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "✔️ Buscar fontes confiáveis de informação, como o site da Organização Mundial da Saúde; \n\n✔️ Reduzir o tempo que passa assistindo ou ouvindo coberturas midiáticas;"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1589617329598",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1589602675372"
+      },
+      "conditions": "$contexto == \"prevencao\" && #frustrascoes",
+      "dialog_node": "node_5_1589619987872",
+      "previous_sibling": "node_4_1589619778444"
+    },
+    {
+      "type": "standard",
+      "title": "Solidao",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entre as estratégias de cuidado psíquico em situação de pandemia, destacam-se, entre outras:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "✔️ Manter ativa a rede socioafetiva, estabelecendo contato, mesmo que virtual, com familiares, amigos e colegas;\n\n✔️ Investir e estimular ações compartilhadas de cuidado, evocando a sensação de pertença social (como as ações solidárias e de cuidado familiar e comunitário)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1589617329598",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1589602675372"
+      },
+      "conditions": "$contexto == \"prevencao\" && #solidao",
+      "dialog_node": "node_4_1589619778444",
+      "previous_sibling": "node_3_1589619476323"
+    },
+    {
+      "type": "standard",
+      "title": "Profissionais_saude",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O contexto de pandemia requer maior atenção ao trabalhador de saúde: ele está mais sujeito a ter sua saúde mental afetada, seja por situações vivenciadas direta ou indiretamente. É recorrente o aumento dos sintomas de ansiedade, depressão, perda da qualidade do sono etc. Os familiares dos profissionais de saúde também estão mais propensos a apresentarem sofrimento psíquico durante a pandemia."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Esse contexto também pode provocar a descompensação de transtornos psíquicos preexistentes. Por isso, uma das linhas de ação consiste em atenção clínica especializada direta a pessoas que apresentam demandas mais complexas ou que já tenham histórico de distúrbios, transtornos e adoecimentos psicopatológicos anteriores à epidemia."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1589617329598",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1589602675372"
+      },
+      "conditions": "$contexto == \"prevencao\" && #profissionais_saude",
+      "dialog_node": "node_6_1589618825851",
+      "previous_sibling": "node_6_1589618625993"
+    },
+    {
+      "type": "standard",
+      "title": "TOC",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Durante uma pandemia, pensamentos e atitudes recorrentes sobre a saúde da nossa família (como as ações relacionadas à higienização da casa) estão entre as reações comportamentais mais comuns."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Alguns critérios para determinar se uma reação psicossocial considerada esperada está se tornando sintomática e precisará ser encaminhada são: sintomas persistentes; sofrimento intenso; comprometimento significativo do funcionamento social e cotidiano; dificuldades profundas na vida familiar, social ou no trabalho etc. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Nesses casos, e quando as estratégias utilizadas não estiverem sendo suficientes para sua estabilização emocional, deve-se buscar um profissional de saúde."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1589617329598",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1589602675372"
+      },
+      "conditions": "$contexto == \"prevencao\" && #toc",
+      "dialog_node": "node_2_1589619270936",
+      "previous_sibling": "node_1_1589619122235"
+    },
+    {
+      "type": "standard",
+      "title": "Ansiedade",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Durante uma pandemia, letargia e alterações de apetite estão entre as reações comportamentais mais comuns. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Alguns critérios para determinar se uma reação psicossocial considerada esperada está se tornando sintomática e precisará ser encaminhada são: sintomas persistentes; sofrimento intenso; comprometimento significativo do funcionamento social e cotidiano; dificuldades profundas na vida familiar, social ou no trabalho etc."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": " Nesses casos, e quando as estratégias utilizadas não estiverem sendo suficientes para sua estabilização emocional, deve-se buscar um profissional de saúde."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1589617329598",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1589602675372"
+      },
+      "conditions": "$contexto == \"prevencao\" && #ansiedade",
+      "dialog_node": "node_4_1589617819747",
+      "previous_sibling": "node_3_1589617349244"
+    },
+    {
+      "type": "standard",
+      "title": "Coletividade",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ela é muito importante. Entre as estratégias de cuidado psíquico em situação de pandemia, destaca-se estimular o espírito solidário e incentivar a participação da comunidade."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1589617329598",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1589602675372"
+      },
+      "conditions": "$contexto == \"prevencao\" && #coletividade",
+      "dialog_node": "node_1_1589619122235",
+      "previous_sibling": "node_6_1589618825851"
+    },
+    {
+      "type": "standard",
+      "title": "Cuidados_prevencao",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Neste momento de pandemia do novo coronavírus, é muito importante que você siga as orientações do Ministério da Saúde e dos governos estaduais e municipais. Cada um de nós precisa fazer a sua parte.💝"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Lavar as mãos frequentemente com água e sabão por pelo menos 20 segundos, incluindo o espaço entre os dedos, unhas e punhos; 🤲💦"
+              },
+              {
+                "text": "Lavar as mãos principalmente antes de comer e após tossir ou espirrar 🤧🤲💦"
+              },
+              {
+                "text": "Se não tiver água e sabão, usar desinfetante para as mãos a base de álcool 🤲💦"
+              },
+              {
+                "text": "Evitar tocar nos olhos, nariz e boca com as mãos não lavadas; 🤦‍♂🤦‍♀🚫"
+              },
+              {
+                "text": "Usar lenço descartável para higiene nasal;🤧😷"
+              },
+              {
+                "text": "Cobrir nariz e boca ao espirrar ou tossir com um lenço de papel descartável ou com a parte interna do cotovelo (nunca as mãos);🤭🚫"
+              },
+              {
+                "text": "Não compartilhar objetos de uso pessoal, como talheres, pratos, copos ou garrafas ; 🍴🥄🍽"
+              },
+              {
+                "text": "Manter os ambientes bem ventilados;🏘🌬"
+              },
+              {
+                "text": "Limpar e desinfetar objetos e superfícies tocados com frequência, como celulares;💦"
+              },
+              {
+                "text": "Evitar contato com pessoas que apresentem sinais da doença; 😷"
+              },
+              {
+                "text": "Evitar sair de casa; 🏘"
+              },
+              {
+                "text": "Evitar locais de muita aglomeração;🏘👍"
+              },
+              {
+                "text": "Pessoas doentes devem permanecer em casa e, caso a doença se agrave, procurar a unidade básica de saúde; 🏘"
+              },
+              {
+                "text": "Grupos vulneráveis , como idosos, crianças, gestantes, pessoas com doenças crônicas ou com imunodeficiência, devem ficar mais atentos às manifestações clínicas; 🏘👴👵🤰🤧"
+              },
+              {
+                "text": "Profissionais de saúde devem utilizar medidas de precaução padrão, de contato e de gotículas (máscara cirúrgica, luvas, avental não estéril e óculos de proteção). 🏘👴👵🤰🤧😷"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1589617329598",
+      "context": {
+        "taxi": "",
+        "contexto": "prevencao"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1589602675372"
+      },
+      "conditions": "#cuidados_prevencao || (@sys-number:6 &&  $taxi == \"numero\")",
+      "dialog_node": "node_3_1589617349244"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O que o sistema informou sobre o seu auxílio ter sido negado? 📲❓"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1589506910766",
+      "conditions": "@sim_nao:sim",
+      "dialog_node": "node_9_1589507413556",
+      "previous_sibling": "node_10_1589507373970"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bom, o processo para análise e aprovação pode demorar um pouco.😥"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Mas você pode solicitar novamente o auxílio."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1589506910766",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1589602675372"
+      },
+      "conditions": "@sim_nao:nao",
+      "dialog_node": "node_10_1589507373970"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_3_1589394758828",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1589394758828"
+      },
+      "conditions": "true",
+      "dialog_node": "node_8_1589500829898",
+      "previous_sibling": "node_5_1589394874439"
+    },
+    {
+      "type": "standard",
+      "title": "Perguntas_sintomas_dores",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Por último, você ou alguém na residência estão com algum dos sintomas abaixo?\n \n*Dor de cabeça;*\n*Dor de garganta;*\n*Dor no corpo;*\n*Diarreia;*\n*Secreção nasal ou espirros.*"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "template",
+            "options": [],
+            "description": "test_button3",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1589394758828",
+      "context": {
+        "sintomas_nota": "<? @sim_nao:sim? $sintomas_nota+3 : $sintomas_nota ?>",
+        "mensagem_recontato": "<? @sim_nao:sim? $mensagem_recontato+'\n\n - *Perda de olfato e paladar*' : $mensagem_recontato?>",
+        "5P_sintomas_olfato_paladar": "@sim_nao"
+      },
+      "conditions": "@sim_nao || @sintomas:(Perda olfato paladar)",
+      "dialog_node": "node_5_1589394874439"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá, <? $nome ?> bem vindo de volta! Como posso te ajudar? 😉"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1589565096302",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1589486381645"
+      },
+      "conditions": "($segunda_saudacao && #saudacao) || ($segunda_saudacao && welcome)",
+      "dialog_node": "node_7_1589544510806",
+      "previous_sibling": "node_2_1589486381645"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oi, eu sou o Dr. Li.\n\nAssistente virtual pronto para te auxiliar nesse momento difícil que é a Pandemia do novo Coronavírus (COVID-19).\n\n"
+              },
+              {
+                "text": "Olá, eu sou o Dr. Li um assistente virtual pronto para te ajudar a passar por essa fase de pandemia e crise. \n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1589565096302",
+      "context": {
+        "timezone": "GMT-3"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1589306145552"
+      },
+      "conditions": "#inicio || #saudacao || welcome",
+      "dialog_node": "node_6_1589305549866",
+      "previous_sibling": "node_7_1589544510806"
+    },
+    {
+      "type": "standard",
+      "title": "menu",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Se precisar de ajuda, estarei aqui. E veja abaixo o que posso fazer por você:\n\n1️⃣ *Pesquisa de Sintomas*\n\n2️⃣ *Grupo de Risco*\n\n3️⃣ *Nível de Exposição*\n\n4️⃣ *Auxílio Emergencial*\n\n5️⃣ *É Verdade ou Fake News*\n\n6️⃣ *Cuidados e Prevenção* \n\n7️⃣ *Avaliação Psicológica*"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1589565096302",
+      "context": {
+        "taxi": "numero",
+        "contexto": "",
+        "segunda_saudacao": true
+      },
+      "conditions": "$contexto=='menu'",
+      "dialog_node": "node_2_1589486381645"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_4_1589501120359",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1589501120359"
+      },
+      "conditions": "true",
+      "dialog_node": "node_4_1589501158156",
+      "previous_sibling": "node_9_1589501144011"
+    },
+    {
+      "type": "standard",
+      "title": "solicita comentário",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Como você acha que eu posso melhorar? 😉"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1589501120359",
+      "context": {
+        "nps_nota": "@sys-number"
+      },
+      "conditions": "@sys-number>=0 && @sys-number<=5",
+      "dialog_node": "node_9_1589501144011"
+    },
+    {
+      "type": "standard",
+      "title": "smalltalks_cumprimento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu estou muito bem! 😄"
+              },
+              {
+                "text": "Comigo está tudo certo. Espero que com você também! 😉"
+              },
+              {
+                "text": "Tudo joia por aqui. Obrigada por perguntar viu! 😊"
+              },
+              {
+                "text": "Hoje eu me sinto muito bem! 🤗"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1589602647447",
+      "conditions": "@small_talks:cumprimento",
+      "dialog_node": "node_4_1589602680065",
+      "previous_sibling": "node_5_1589602681859"
+    },
+    {
+      "type": "standard",
+      "title": "smalltalks_agradecimento",
+      "parent": "node_7_1589602647447",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@small_talks:agradecimento || @small_talks:agradecimento_emoji",
+      "dialog_node": "node_1_1589602673042",
+      "previous_sibling": "node_2_1589602675372"
+    },
+    {
+      "type": "standard",
+      "title": "smalltalks_elogio",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Que bom, ficamos muito felizes! Trabalhamos\ndiariamente para conquistar a satisfação e o\nrespeito dos nossos clientes! 😃"
+              },
+              {
+                "text": "Eba! Isso nos deixa muito feliz! A satisfação e\no respeito dos nossos clientes é o que há de\nmais importante para nós. 😄"
+              },
+              {
+                "text": "Uhul! Ficamos muito contentes quando\nnossos clientes estão satisfeitos. 😃"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1589602647447",
+      "conditions": "@small_talks:elogio",
+      "dialog_node": "node_3_1589602677752",
+      "previous_sibling": "node_4_1589602680065"
+    },
+    {
+      "type": "standard",
+      "title": "smalltalks_xingamento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Poxa! Não consigo falar desse assunto com você. 😕"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1589602647447",
+      "conditions": "@small_talks:xingamento",
+      "dialog_node": "node_5_1589602681859",
+      "previous_sibling": "node_9_1589602663764"
+    },
+    {
+      "type": "standard",
+      "title": "smalltalks_despedida",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Volte sempre que precisar da minha ajuda! 😉"
+              },
+              {
+                "text": "Precisando, pode me chamar! Conte sempre comigo. 😊"
+              },
+              {
+                "text": "Volte mais vezes! Estou aqui para te atender da melhor forma possível. 😀"
+              },
+              {
+                "text": "Até breve! E se precisar de mim, estarei aqui. 😊"
+              },
+              {
+                "text": "Estarei sempre por aqui, quando precisar é só me chamar! 🙋"
+              },
+              {
+                "text": " Agradecemos o seu contato. 🙂"
+              },
+              {
+                "text": "Volte sempre que precisar da minha ajuda! 😃"
+              },
+              {
+                "text": "Obrigado por nos contactar, retorne quando quiser, até logo. 😊"
+              },
+              {
+                "text": "Estarei aqui quando quiser retornar com mais alguma pergunta, agradeço seu interesse e até qualquer hora! 👋"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1589602647447",
+      "conditions": "@small_talks:despedida",
+      "dialog_node": "node_2_1589602675372",
+      "previous_sibling": "node_3_1589602677752"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Meu nome é Dr. Li! É um prazer ter você aqui. 😃"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1589602647447",
+      "conditions": "@small_talks:nome",
+      "dialog_node": "node_9_1589602663764"
+    },
+    {
+      "type": "standard",
+      "title": "Avaliacao_nivel_risco_alto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Fique tranquilo, você não está sozinho, vou te ajudar a enfrentar essa batalha!  \n\nRecomendo que você tenha um acompanhamento com um psicólogo que vai te atender individualmente com hora marcada (online). Você aceita esse acolhimento?🤝🤗"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "template",
+            "options": [],
+            "description": "test_button3",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_17_1590886953458",
+      "conditions": "$sintomas_nota",
+      "dialog_node": "node_21_1590886953458",
+      "previous_sibling": "node_20_1590886953458"
+    },
+    {
+      "type": "standard",
+      "title": "Avaliacao_nivel_risco_medio",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Recomendo que você participe de uma terapia em grupo (online) onde estará em contato com pessoas que estão passando pela mesma situação, trazendo assim um conforto psicológico.  Você aceita participar?🤝👫"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "template",
+            "options": [],
+            "description": "test_button3",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_17_1590886953458",
+      "conditions": "$sintomas_nota<=19",
+      "dialog_node": "node_20_1590886953458",
+      "previous_sibling": "node_19_1590886953458"
+    },
+    {
+      "type": "standard",
+      "title": "Avaliacao_nivel_risco_erro",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "erro na nota"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_17_1590886953458",
+      "conditions": "true",
+      "dialog_node": "node_22_1590886953458",
+      "previous_sibling": "node_21_1590886953458"
+    },
+    {
+      "type": "standard",
+      "title": "Avaliacao_nivel_risco_baixo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você está bem e por enquanto não precisa de um acompanhamento psicológico. \n\nSiga todas as orientações da OMS, fique em casa e tome todos os cuidados de higiene, procure fazer atividades que tragam distração e bem-estar para o seu dia a dia. E se precisar, é só me chamar!  \n#JUNTOSSOMOSMAISFORTES 🤝"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_17_1590886953458",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1589321217733"
+      },
+      "conditions": "$sintomas_nota<=9",
+      "dialog_node": "node_19_1590886953458"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1589321161355",
+      "dialog_node": "slot_9_1589321195455",
+      "previous_sibling": "slot_10_1589321190673"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1589321161355",
+      "dialog_node": "slot_9_1589321204886",
+      "previous_sibling": "slot_9_1589321195455"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1589321161355",
+      "dialog_node": "slot_10_1589321190673",
+      "previous_sibling": "node_1_1589486577109"
+    },
+    {
+      "type": "standard",
+      "title": "problemas respiratórios / asma",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo, e tem alguma gestante ou pessoas com problemas respiratórios / asma? 🤰"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1589321161355",
+      "context": {
+        "grupo_nota": "<? @sim_nao:sim? $grupo_nota+1 : $grupo_nota ?>",
+        "1P_grupo_risco_diabete_pressao": "@sim_nao"
+      },
+      "conditions": "@sim_nao",
+      "dialog_node": "node_1_1589486577109"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1589501181215",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1589501181215"
+      },
+      "conditions": "true",
+      "dialog_node": "node_7_1589501257729",
+      "previous_sibling": "node_6_1589501224180"
+    },
+    {
+      "type": "standard",
+      "title": "agradece",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Obrigado! Saiba que estou a disposição para esclarecer as suas dúvidas! 😃"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1589501181215",
+      "actions": [
+        {
+          "name": "salvaDados",
+          "type": "client",
+          "parameters": {
+            "dados": {
+              "nps_nota": "$nps_nota",
+              "nps_comentario": "$nps_comentario",
+              "nps_confia_assistente": "$nps_confia_assistente"
+            }
+          },
+          "credentials": "null",
+          "result_variable": "null"
+        }
+      ],
+      "context": {
+        "contexto": "menu",
+        "nps_confia_assistente": "@sim_nao"
+      },
+      "conditions": "@sim_nao",
+      "dialog_node": "node_6_1589501224180"
+    },
+    {
+      "type": "standard",
+      "title": "obesidade ou insuficiência renal",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Alguém com obesidade ou insuficiência renal na residência? 😵🧪"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1589486577109",
+      "context": {
+        "grupo_nota": "<? @sim_nao:sim? $grupo_nota+1 : $grupo_nota ?>",
+        "2P_grupo_risco_asma": "@sim_nao"
+      },
+      "conditions": "@sim_nao",
+      "dialog_node": "node_4_1589486607006"
+    },
+    {
+      "type": "standard",
+      "title": "auxilio_tempo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O pagamento do auxilio será feito pelo período de três meses."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1589506727007",
+      "context": {
+        "train": "",
+        "contexto": ""
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1589486381645"
+      },
+      "conditions": "#auxilio_tempo &&     $contexto == \"auxilio\" || (@sys-number:2 &&  $train == \"numero\")",
+      "dialog_node": "node_1_1589610737453",
+      "previous_sibling": "node_9_1589610987428"
+    },
+    {
+      "type": "standard",
+      "title": "auxilio_data",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para informações sobre data de pagamento beneficiários do Programa Bolsa Família e demais cidadãos cadastrados, acesse:\n\nhttp://www.caixa.gov.br/auxilio/PAGINAS/DEFAULT2.ASPX"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1589506727007",
+      "context": {
+        "train": "",
+        "contexto": ""
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1589486381645"
+      },
+      "conditions": "#auxilio_data &&       $contexto == \"auxilio\" || (@sys-number:1 &&  $train == \"numero\")",
+      "dialog_node": "node_9_1589610987428"
+    },
+    {
+      "type": "standard",
+      "parent": "node_2_1590891845020",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1590891845020"
+      },
+      "conditions": "true",
+      "dialog_node": "node_3_1590891901435",
+      "previous_sibling": "node_9_1590891946584"
+    },
+    {
+      "type": "standard",
+      "title": "Avaliacao_psicologica_deirecionamento",
+      "parent": "node_2_1590891845020",
+      "context": {
+        "saude_mental": "<? @sim_nao:sim? $saude_mental+10 : $saude_mental ?>",
+        "mensagem_recontato": "<? @sim_nao:sim? $mensagem_recontato+'\n\n - *mudanças nos hábitos alimentares*' : $mensagem_recontato?>",
+        "9P_habitos_alimentares": "@sim_nao"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_17_1590886953458"
+      },
+      "conditions": "@sim_nao || @sintomas:apetite",
+      "dialog_node": "node_9_1590891946584"
+    },
+    {
+      "type": "standard",
+      "title": "salva dado exposicao",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_19_1589496071821",
+      "actions": [
+        {
+          "name": "salvaDados",
+          "type": "client",
+          "parameters": {
+            "dados": {
+              "4P_saude": "$4P_saude",
+              "3P_saida_esporadica": "$3P_saida_esporadica",
+              "1P_transporte_publico": "$1P_transporte_publico",
+              "2P_atendimento_publico": "$2P_atendimento_publico"
+            }
+          },
+          "credentials": "null",
+          "result_variable": "null"
+        }
+      ],
+      "context": {
+        "contexto": "nota"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1589501120359"
+      },
+      "dialog_node": "node_34_1589496071825",
+      "previous_sibling": "node_20_1589496071825"
+    },
+    {
+      "type": "standard",
+      "title": "transporte_publico",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Vou fazer 4 perguntas para saber o seu nível de exposição ao novo Coronavírus e assim poder te auxiliar melhor."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Vamos lá! Durante esse período de pandemia, você ou alguém da sua família utilizou transporte público? Exemplo: trem, metrô, ônibus.🚌🚈"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_19_1589496071821",
+      "context": {
+        "taxi": "",
+        "transporte_publico": "@sim_nao"
+      },
+      "conditions": "#nivel_exposicao || (@sys-number:3 &&  $taxi == \"numero\")",
+      "dialog_node": "node_20_1589496071825"
+    },
+    {
+      "type": "standard",
+      "title": "solicita resposta sim ou nao",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "E você confia em um assistente virtual 🤖 auxiliando e acompanhamento sua saúde?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1589501144011",
+      "context": {
+        "nps_comentario": "<?input.text?>"
+      },
+      "conditions": "true",
+      "dialog_node": "node_7_1589501181215"
+    },
+    {
+      "type": "standard",
+      "title": "Faq_alcool_gel",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O uso de álcool gel para higiene das mãos como prevenção ao coronavírus é eficaz."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1589496498814",
+      "conditions": "#faq_alcool_gel",
+      "dialog_node": "node_38_1589496514830",
+      "previous_sibling": "node_3_1589496504607"
+    },
+    {
+      "type": "standard",
+      "title": "Faq_mascaras",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O uso de máscaras seria uma forma de impedir que infectados contaminem outras pessoas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1589496498814",
+      "conditions": "#faq_mascaras",
+      "dialog_node": "node_37_1589496512451",
+      "previous_sibling": "node_38_1589496514830"
+    },
+    {
+      "type": "standard",
+      "title": "Faq_fumantes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Devido a um possível comprometimento da capacidade pulmonar, o fumante possui mais chances de desenvolver sintomas graves da doença."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1589496498814",
+      "conditions": "#faq_fumantes",
+      "dialog_node": "node_3_1589496504607"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_20_1589496071825",
+      "dialog_node": "slot_31_1589496071825",
+      "previous_sibling": "slot_28_1589496071825"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_20_1589496071825",
+      "dialog_node": "slot_25_1589496071825",
+      "previous_sibling": "node_22_1589496071825"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_20_1589496071825",
+      "dialog_node": "slot_28_1589496071825",
+      "previous_sibling": "slot_25_1589496071825"
+    },
+    {
+      "type": "standard",
+      "title": "atendimento_publico",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo, estamos terminando. \n\nVocê ou alguém da sua casa, trabalha com atendimento ao público? Exemplo: motorista, polícia, balconista, caixa...❓"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_20_1589496071825",
+      "context": {
+        "1P_transporte_publico": "@sim_nao"
+      },
+      "conditions": "@sim_nao",
+      "dialog_node": "node_22_1589496071825"
+    },
+    {
+      "type": "standard",
+      "title": "Informa_cep",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo, nesse bairro está confirmado <? new Random().nextInt(40) ?> casos de COVID-19.\n\nVamos vencer juntos.\n/#FiqueEmCasa🙏"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1589488965455",
+      "actions": [
+        {
+          "name": "salvaDados",
+          "type": "client",
+          "parameters": {
+            "cep": "$cep"
+          },
+          "credentials": "null",
+          "result_variable": "null"
+        }
+      ],
+      "context": {
+        "cep": "@CEP.literal",
+        "contexto": "nps",
+        "localizar_cep": ""
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1589501120359"
+      },
+      "conditions": "@CEP ||  $localizar_cep == \"location\" && $location",
+      "dialog_node": "node_1_1589489737943",
+      "previous_sibling": "node_4_1589321217733"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1589488965455",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1589321217733"
+      },
+      "conditions": "$contexto=='solicita_cep'",
+      "dialog_node": "node_10_1589489064564",
+      "previous_sibling": "node_1_1589489737943"
+    },
+    {
+      "type": "standard",
+      "title": "2 - Solicita_cep",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "E para te manter atualizado, posso informar sobre os casos positivos de COVID-19 no seu bairro.  🤜🤛\n\nMe informe seu CEP?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1589488965455",
+      "context": {
+        "contexto": "solicita_cep",
+        "localizar_cep": "location"
+      },
+      "conditions": "#pesquisa_cep || $contexto==\"cep\"",
+      "dialog_node": "node_4_1589321217733"
+    },
+    {
+      "type": "standard",
+      "title": "resposta_nao",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tudo bem, se precisar de qualquer informação ou ajuda, é só me chamar. Estou à disposição sempre.  #Juntossomosmaisfortes 🤜🤛"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_21_1590886953458",
+      "conditions": "@sim_nao:nao",
+      "dialog_node": "node_2_1590907675616",
+      "previous_sibling": "node_7_1590907672324"
+    },
+    {
+      "type": "standard",
+      "title": "resposta_sim",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, Entraremos em contato para agendar uma consulta (online) com um psicólogo.  🤜🤛\n#JUNTOSSOMOSMAISFORTES"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_21_1590886953458",
+      "conditions": "@sim_nao:sim",
+      "dialog_node": "node_7_1590907672324"
+    },
+    {
+      "type": "standard",
+      "title": "Faq_remedio_aids",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Notícia falsa, não é comprovado que os remédios para o tratamento de de HIV curam o Coronavírus. O uso de qualquer medicamento sem orientação médica, pode ser prejudicial à saúde."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1589321130117",
+      "conditions": "#faq_remedio_aids",
+      "dialog_node": "node_1_1589493885224",
+      "previous_sibling": "node_6_1589493888000"
+    },
+    {
+      "type": "standard",
+      "title": "Faq_cura_tratamento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Notícia falsa, ainda não foi desenvolvido uma medicamento que realmente é eficaz no combate ao novo Covide-19."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1589321130117",
+      "conditions": "#faq_cura_tratamento",
+      "dialog_node": "node_9_1589494721635",
+      "previous_sibling": "node_1_1589493885224"
+    },
+    {
+      "type": "standard",
+      "title": "Faq_bafometro",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Fake news, álcool gel é indicado apenas para limpeza e assepsia das mãos e superfícies."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1589321130117",
+      "conditions": "#faq_bafometro",
+      "dialog_node": "node_1_1589495186977",
+      "previous_sibling": "node_4_1589495189286"
+    },
+    {
+      "type": "standard",
+      "title": "Faq_mascara_china",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Isso não é verdade, o vírus não resistiria tanto tempo no objeto durante o trajeto."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1589321130117",
+      "conditions": "#fake_mascara_china",
+      "dialog_node": "node_2_1589321143339",
+      "previous_sibling": "node_9_1589544976728"
+    },
+    {
+      "type": "standard",
+      "title": "Faq_gargarejo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Essa é uma afirmação falsa, remédios caseiros não previnem e não curam pessoas com diagnóstico de covide-19."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1589321130117",
+      "conditions": "#faq_gargarejo",
+      "dialog_node": "node_4_1589495189286",
+      "previous_sibling": "node_9_1589494721635"
+    },
+    {
+      "type": "standard",
+      "title": "Faq_alimentos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Notícia falsa, não existem receitas milagrosas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1589321130117",
+      "conditions": "#faq_alimentos",
+      "dialog_node": "node_3_1589493882303",
+      "previous_sibling": "node_9_1589493786958"
+    },
+    {
+      "type": "standard",
+      "title": "Faq_remedio_piolho",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Essa informação não é verdadeira. O remédio para piolhos combate os piolhos, não o corona vírus."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1589321130117",
+      "conditions": "#faq_remedio_piolho",
+      "dialog_node": "node_1_1589321154856",
+      "previous_sibling": "node_2_1589321143339"
+    },
+    {
+      "type": "standard",
+      "title": "Faq_cafe",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Essa informação é falsa. O café não combate o corona vírus."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1589321130117",
+      "conditions": "#faq_cafe",
+      "dialog_node": "node_4_1589493336523",
+      "previous_sibling": "node_1_1589321154856"
+    },
+    {
+      "type": "standard",
+      "title": "Faq_prender_respiracao",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Mais uma falsa notícia, essas técnicas não são eficientes nem eficazes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1589321130117",
+      "conditions": "#faq_prender_respiracao",
+      "dialog_node": "node_6_1589493888000",
+      "previous_sibling": "node_3_1589493882303"
+    },
+    {
+      "type": "standard",
+      "title": "Faq_infertilidade",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Mais uma de várias notícias falsas que estão sendo divulgadas. Não existe nada que comprove isso."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1589321130117",
+      "conditions": "#faq_infertilidade",
+      "dialog_node": "node_9_1589493786958",
+      "previous_sibling": "node_4_1589493336523"
+    },
+    {
+      "type": "standard",
+      "title": "oq é fake new",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "São noticias falsas, que as pessoas compartilham umas com as outras, sem verificar a procedência. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Reuni alguns temas relacionados à notícias vinculadas nas mídias:\n\n✔️ Uso de álcool em gel\n✔️ Tabaco potencializa o vírus\n✔️ Máscara para proteção\n✔️ Máscaras chinesas\n✔️ Remédio para piolho\n✔️ Café combate COVID-19\n✔️ COVID-19 e infertilidade\n✔️ Alimentos que curam\n✔️ Álcool em gel e bafômetro \n✔️ Gargarejos matam o vírus"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1589321130117",
+      "context": {
+        "taxi": ""
+      },
+      "conditions": "#fake || (@sys-number:5 &&  $taxi == \"numero\")",
+      "dialog_node": "node_9_1589544976728"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_25_1589496071825",
+      "event_name": "focus",
+      "dialog_node": "handler_27_1589496071825",
+      "previous_sibling": "handler_26_1589496071825"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_25_1589496071825",
+      "event_name": "input",
+      "dialog_node": "handler_26_1589496071825"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1589321204886",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1589321204887",
+      "previous_sibling": "handler_8_1589321204887"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_9_1589321204886",
+      "event_name": "input",
+      "dialog_node": "handler_8_1589321204887"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_4_1589306432029",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1589306432029"
+      },
+      "conditions": "true",
+      "dialog_node": "node_6_1589500789288",
+      "previous_sibling": "node_10_1589306539870"
+    },
+    {
+      "type": "standard",
+      "title": "Perguntas_sintomas_tosse",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "E você ou alguém em sua casa teve ou está com *tosse*? 🤧"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "template",
+            "options": [],
+            "description": "test_button3",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1589306432029",
+      "context": {
+        "sintomas_nota": "<? @sim_nao:sim? $sintomas_nota+5 : $sintomas_nota ?>",
+        "3P_sintomas_febre": "@sim_nao",
+        "mensagem_recontato": "<? @sim_nao:sim? $mensagem_recontato+'\n\n - *febre*' : $mensagem_recontato?>"
+      },
+      "conditions": "@sim_nao || @sintomas:febre",
+      "dialog_node": "node_10_1589306539870"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_3_1590886953458",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1590886953458"
+      },
+      "conditions": "true",
+      "dialog_node": "node_15_1590886953458",
+      "previous_sibling": "node_4_1590886953458"
+    },
+    {
+      "type": "standard",
+      "title": "Avaliacao_psicologica_perda_interesse",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você perdeu o interesse em atividades que antes apreciava? 😒"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "template",
+            "options": [],
+            "description": "test_button3",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1590886953458",
+      "context": {
+        "saude_mental": "<? @sim_nao:sim? $saude_mental+10 : $saude_mental ?>",
+        "1P_desanimado": "@sim_nao",
+        "mensagem_recontato": "<? @sim_nao:sim? $mensagem_recontato+'\n\n - *triste* ou *desanimado* nas últimas semanas' : $mensagem_recontato?>"
+      },
+      "conditions": "@sim_nao || @sintomas:desanimado",
+      "dialog_node": "node_4_1590886953458"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_31_1589496071825",
+      "event_name": "focus",
+      "dialog_node": "handler_33_1589496071825",
+      "previous_sibling": "handler_32_1589496071825"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_31_1589496071825",
+      "event_name": "input",
+      "dialog_node": "handler_32_1589496071825"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_7_1590886953458",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1590886953458"
+      },
+      "conditions": "true",
+      "dialog_node": "node_11_1590886953458",
+      "previous_sibling": "node_8_1590886953458"
+    },
+    {
+      "type": "standard",
+      "title": "Avaliacao_psicologica_irritabilidade",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você se irrita com facilidade e sente que nada pode te acalmar? 😤"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "template",
+            "options": [],
+            "description": "test_button3",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1590886953458",
+      "context": {
+        "saude_mental": "<? @sim_nao:sim? $saude_mental+10 : $saude_mental ?>",
+        "mensagem_recontato": "<? @sim_nao:sim? $mensagem_recontato+'\n\n - *dificuldade de concentração*' : $mensagem_recontato?>",
+        "5P_dificuldade_concentrar": "@sim_nao"
+      },
+      "conditions": "@sim_nao || @sintomas:(falta de concentracao)",
+      "dialog_node": "node_8_1590886953458"
+    },
+    {
+      "type": "standard",
+      "title": "resposta_nao",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você solicitou o auxílio?❓"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1589506727004",
+      "context": {
+        "2P_auxilio_nao": "@sim_nao "
+      },
+      "conditions": "@sim_nao:nao",
+      "dialog_node": "node_6_1589506727007",
+      "previous_sibling": "node_5_1589506727007"
+    },
+    {
+      "type": "standard",
+      "title": "resposta_sim_opcpes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo. Veja abaixo as maiores dúvidas das pessoas que já receberam o *Auxílio Emergencial*. \nDigite uma dessas opções: 😊"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "1️⃣ Por quanto tempo será pago o auxílio?💰\n\n2️⃣ Qual a data de pagamento do auxílio?📆"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1589506727004",
+      "context": {
+        "train": "numero",
+        "contexto": "auxilio",
+        "2P_auxilio_governo": "@sim_nao"
+      },
+      "conditions": "@sim_nao:sim",
+      "dialog_node": "node_5_1589506727007"
+    },
+    {
+      "type": "standard",
+      "parent": "node_9_1590886953458",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1590886953458"
+      },
+      "conditions": "true",
+      "dialog_node": "node_5_1590891685425",
+      "previous_sibling": "node_8_1590891810289"
+    },
+    {
+      "type": "standard",
+      "title": "Avaliacao_psicologica_insonia",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você tem dificuldade para dormir ou insônia? 😴"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "template",
+            "options": [],
+            "description": "test_button3",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1590886953458",
+      "context": {
+        "7P_agitacao": "@sim_nao",
+        "saude_mental": "<? @sim_nao:sim? $saude_mental+10 : $saude_mental ?>",
+        "mensagem_recontato": "<? @sim_nao:sim? $mensagem_recontato+'\n\n - *se sente agitado a ponto de ter prejuízo no trabalho*' : $mensagem_recontato?>"
+      },
+      "conditions": "@sim_nao || @sintomas:agitacao",
+      "dialog_node": "node_8_1590891810289"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_10_1589306539870",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1589306539870"
+      },
+      "conditions": "true",
+      "dialog_node": "node_10_1589500811774",
+      "previous_sibling": "node_3_1589394758828"
+    },
+    {
+      "type": "standard",
+      "title": "Perguntas_sintomas_perda_olfato_paladar",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Estamos chegando ao fim... \n\nÉ importante sabermos se você ou alguém da família tiveram *Perda de olfato e paladar*? 🤐"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "template",
+            "options": [],
+            "description": "test_button3",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1589306539870",
+      "context": {
+        "sintomas_nota": "<? @sim_nao:sim? $sintomas_nota+3 : $sintomas_nota ?>",
+        "4P_sintomas_tosse": "@sim_nao",
+        "mensagem_recontato": "<? @sim_nao:sim? $mensagem_recontato+'\n\n - *tosse*' : $mensagem_recontato?>"
+      },
+      "conditions": "@sim_nao || @sintomas:tosse",
+      "dialog_node": "node_3_1589394758828"
+    },
+    {
+      "type": "standard",
+      "title": "Avaliacao_nivel_risco",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1590886953452",
+      "actions": [
+        {
+          "name": "salvaDados",
+          "type": "client",
+          "parameters": {
+            "dados": {
+              "sintomas_nota": "$sintomas_nota",
+              "nivel_sintomas": "$nivel_sintomas",
+              "numero_moradores": "$numero_moradores",
+              "3P_sintomas_febre": "$3P_sintomas_febre",
+              "4P_sintomas_tosse": "$4P_sintomas_tosse",
+              "6P_sintomas_dores": "$6P_sintomas_dores",
+              "2P_sintomas_falta_ar": "$2P_sintomas_falta_ar",
+              "1P_sintomas_contato_covid": "$1P_sintomas_contato_covid",
+              "5P_sintomas_olfato_paladar": "$5P_sintomas_olfato_paladar"
+            }
+          },
+          "credentials": "null",
+          "result_variable": "null"
+        }
+      ],
+      "context": {
+        "contexto": "",
+        "nivel_sintomas": "<? $sintomas_nota >= 20 ? 'alto' : $sintomas_nota >= 10 ? 'medio' : $sintomas_nota >= 1 ? 'baixo' : 'nenhum' ?>"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "",
+      "dialog_node": "node_17_1590886953458",
+      "previous_sibling": "node_2_1590886953458"
+    },
+    {
+      "type": "standard",
+      "title": "Avaliacao_psicologica_inicio",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "😷 Nesse período de pandemia do novo Coronavírus algumas pessoas estão desenvolvendo problemas psicológicos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "É muito importante saber como está a sua saúde mental. \"Mente sã, corpo são\". Farei algumas perguntas para te ajudar! 😉"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1590886953452",
+      "context": {
+        "taxi": ""
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1590886953458"
+      },
+      "conditions": "(@sys-number:7 &&  $taxi == \"numero\") || #avaliacao_psicologica",
+      "dialog_node": "node_2_1590886953458"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_8_1590886953458",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1590886953458"
+      },
+      "conditions": "true",
+      "dialog_node": "node_10_1590886953458",
+      "previous_sibling": "node_9_1590886953458"
+    },
+    {
+      "type": "standard",
+      "title": "Avaliacao_psicologica_agitacao",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você se sente agitado a ponto de ter prejuízo no trabalho, na vida social ou afetiva? 😫"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "template",
+            "options": [],
+            "description": "test_button3",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1590886953458",
+      "context": {
+        "saude_mental": "<? @sim_nao:sim? $saude_mental+10 : $saude_mental ?>",
+        "6P_irritabilidade": "@sim_nao",
+        "mensagem_recontato": "<? @sim_nao:sim? $mensagem_recontato+'\n\n - *se irrita com facilidade e sente que nada pode te acalmar*' : $mensagem_recontato?>"
+      },
+      "conditions": "@sim_nao || @sintomas:irritacao",
+      "dialog_node": "node_9_1590886953458"
+    },
+    {
+      "type": "standard",
+      "title": "fora do grupo de risco",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você e sua família não fazem parte do grupo de risco. \n\nMas é preciso tomar todos os cuidados necessários para se prevenir do COVID-19. \n\nMesmo não estando no grupo de risco, fique em casa.⚠ 🙏💝"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1589486812567",
+      "conditions": "$grupo_risco=='não'",
+      "dialog_node": "node_4_1589486825409",
+      "previous_sibling": "node_2_1589486828821"
+    },
+    {
+      "type": "standard",
+      "title": "esta no grupo de risco",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Em sua residência há pessoas no grupo de risco!\n\nEntão fique em casa. Vamos manter o isolamento social. Pois o COVID-19 pode ser fatal, principalmente para pessoas que fazem parte desse grupo. \n\nTudo isso vai passar logo. #JuntosSomosMaisFortes ⚠ 🙏💝"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1589486812567",
+      "conditions": "$grupo_risco=='sim'",
+      "dialog_node": "node_2_1589486828821"
+    },
+    {
+      "type": "standard",
+      "title": "retorno do sintoma",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo. em breve irão entrar em contato com você. Obrigado! #Juntossomosmaisfortes 🤗"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "contexto": ""
+      },
+      "conditions": "$contexto==\"pergunta_sobre_sintomas\"",
+      "dialog_node": "node_2_1589640041752",
+      "previous_sibling": "node_4_1589196675182"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1589486381645"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_3_1589545403201",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "som",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$voice.id"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "actions": [
+        {
+          "name": "som",
+          "type": "client",
+          "parameters": {
+            "voice": "$voice.id"
+          },
+          "credentials": "null",
+          "result_variable": "null"
+        }
+      ],
+      "context": {
+        "type_mensagem": ""
+      },
+      "conditions": "$type_mensagem == 'voice'",
+      "dialog_node": "node_1_1590465498962",
+      "previous_sibling": "node_8_1590755639419"
+    },
+    {
+      "type": "folder",
+      "title": "2 - Solicita_cep",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1589488965455",
+      "previous_sibling": "node_8_1589643261715"
+    },
+    {
+      "type": "folder",
+      "title": "6-Cuidados_prevencao",
+      "dialog_node": "node_8_1589617329598",
+      "previous_sibling": "node_1_1589495832601"
+    },
+    {
+      "type": "folder",
+      "title": "4-Perguntas_sobre_exposicao",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_19_1589496071821",
+      "previous_sibling": "node_8_1589321139716"
+    },
+    {
+      "type": "folder",
+      "title": "Faq_fake_news",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1589321130117",
+      "previous_sibling": "node_3_1589501112364"
+    },
+    {
+      "type": "folder",
+      "title": "retorno",
+      "dialog_node": "node_8_1589643261715",
+      "previous_sibling": "node_7_1589306496382"
+    },
+    {
+      "type": "folder",
+      "title": "7 - Avaliacao_psicologica",
+      "conditions": "",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1590886953452",
+      "previous_sibling": "node_8_1589617329598"
+    },
+    {
+      "type": "folder",
+      "title": "1 - Perguntas_sintomas",
+      "conditions": "",
+      "dialog_node": "node_7_1589306496382",
+      "previous_sibling": "node_2_1589640041752"
+    },
+    {
+      "type": "folder",
+      "title": "smalltalks",
+      "conditions": "@small_talks",
+      "dialog_node": "node_7_1589602647447",
+      "previous_sibling": "node_3_1589565096302"
+    },
+    {
+      "type": "standard",
+      "title": "outras tipos de msg",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe, envie apenas mensagem em texto. No momento, ainda não conseguimos receber arquivo de áudio, foto ou vídeo. 😊"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "$type_mensagem != 'text'",
+      "dialog_node": "node_3_1589545403201",
+      "previous_sibling": "node_7_1589602647447"
+    },
+    {
+      "type": "folder",
+      "title": "5-Perguntas_sobre_auxilio",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1589495832601",
+      "previous_sibling": "node_19_1589496071821"
+    },
+    {
+      "type": "standard",
+      "title": "para pessoas que não estão na lista",
+      "output": {
+        "generic": []
+      },
+      "context": {
+        "numeros": [
+          "5511967765407",
+          "5511995523885",
+          "5511980328624",
+          "5511988774990",
+          "5511987236465",
+          "5511977276611",
+          "5511976193528"
+        ],
+        "validando": "<? $numeros.contains($telefone) ?>"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "false && !$validando",
+      "dialog_node": "node_4_1589196675182",
+      "previous_sibling": "node_1_1590465498962"
+    },
+    {
+      "type": "folder",
+      "title": "inicio",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1589565096302",
+      "previous_sibling": "node_3_1589496498814"
+    },
+    {
+      "type": "folder",
+      "title": "3-Perguntas_grupos_risco",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1589321139716",
+      "previous_sibling": "node_2_1589488965455"
+    },
+    {
+      "type": "folder",
+      "title": "Faq_noticias_verdadeiras",
+      "dialog_node": "node_3_1589496498814",
+      "previous_sibling": "node_1_1589321130117"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "sem resultado"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "contexto": ""
+      },
+      "conditions": "$contexto== 'sem_resultados'",
+      "dialog_node": "node_8_1590755639419",
+      "previous_sibling": "node_3_1590464332195"
+    },
+    {
+      "type": "folder",
+      "title": "Nps",
+      "dialog_node": "node_3_1589501112364",
+      "previous_sibling": "node_1_1590886953452"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$data"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "contexto": ""
+      },
+      "conditions": "$contexto== 'resultado'",
+      "dialog_node": "node_3_1590464332195"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "08773-100"
+    }
+  ],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": false,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Assistent v3 NASA",
+  "language": "pt-br",
+  "description": "Dr Li Assistente da Família"
+}
