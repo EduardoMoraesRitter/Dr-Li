@@ -8,7 +8,7 @@ import json
 from ibm_watson import VisualRecognitionV3
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 def watson(name):
-    authenticator = IAMAuthenticator('Im36HNqglBlVquN3JHIr6M_kIj7hqLzM481nEFTAaTxe')
+    authenticator = IAMAuthenticator('AAAAAAAAAAAAAAAAA')
     visual_recognition = VisualRecognitionV3(
         version='2018-03-19',
         authenticator=authenticator
@@ -58,7 +58,7 @@ import ffmpeg
 import wave
 def pegaaudio(name):
     url = "https://waent-lb-1220480723.us-east-1.elb.amazonaws.com/v1/media/"+name
-    headers = {"Content-Type": "audio/wav", "Authorization":"Bearer eyJhbGciOiAiSFMyNTYiLCAidHlwIjogIkpXVCJ9.eyJ1c2VyIjoiYWRtaW4iLCJpYXQiOjE1OTAzNTE2NzUsImV4cCI6MTU5MDk1NjQ3NSwid2E6cmFuZCI6NzEwMjQ5NDYwOTI2MzE3MTkxfQ.ZBWsORoi9xJIqOccnxnV-d4H6ABfYajEDkdXLfacIfE"}
+    headers = {"Content-Type": "audio/wav", "Authorization":"Bearer AAAAAAAA.AAAAAAAAAAAAAAE"}
     r = requests.get(url=url,headers=headers, verify=False)
 
     print(r.status_code)
