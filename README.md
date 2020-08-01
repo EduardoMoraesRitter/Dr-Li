@@ -16,19 +16,38 @@ Dr. Li is prepared to clarify questions and also respond to fake news inquiries,
 
 
 pt-BR
-> Vários países vêm enfrentando grandes problemas para diagnosticar e acompanhar pessoas com sintomas do novo Coronavírus.
-> Com base em dados e pesquisas científicas, criamos o Dr Li - uma Inteligência artificial que conversa de forma amigável pelo whatsapp, fazendo uma triagem para identificação do COVID-19 e devido ao isolamento social direcionando se necessário ao acompanhamento psicológico. 
-> E de modo nunca visto antes o usuário envia uma gravação da sua respiração onde analisamos a frequência sonora e identificamos problemas pulmonares, gerando pré-diagnósticos.
-> Tudo isso coletando dados, informando aos órgãos competentes para auxiliar no mapeamento regional, acompanhamento das famílias e no combate ao COVID-19.
+> Vários países vêm enfrentando grandes problemas para diagnosticar e acompanhar pessoas com sintomas do novo coronavírus, além das fake news que vêm causando transtornos com informações falsas sobre prevenção e tratamentos.
+> Com base em dados e pesquisas científicas, criamos o Dr Li - uma Inteligência artificial que conversa de forma amigável pelo whatsapp fazendo uma triagem para identificação do COVID-19. E de modo nunca visto antes através de um áudio enviado pelo próprio usuário, ele extrai frequências sonoras da respiração e realiza uma comparação utilizando a inteligência artificial para identificar possíveis problemas pulmonares, gerando pré-diagnósticos, encaminhando assim, para um atendimento mais específico.
+
+> Ainda devido ao isolamento social, algumas pessoas vêm  também desenvolvendo problemas psicológicos, como TOC, depressão e ansiedade, por esse motivo pensando  não somente no bem estar físico, mas também emocional, através de um questionário é realizada uma avaliação e se necessário a pessoa é direcionada a um acompanhamento psicológico personalizado individual ou em grupo de acordo com a necessidade do usuário. Esse atendimento é feito por profissionais capacitados que farão um atendimento online realizado no próprio app.
+> Por envio do cep, é realizada uma consulta na base nacional de registros e controle do novo Coronavírus, alertando ao usuário o número de casos testados positivo na região.
+Tudo isso coletando dados oficiais, informando aos órgãos competentes, auxiliando no mapeamento regional, ajudando as autoridades e acompanhando as famílias no combate ao vírus.
+> O Dr. Li está preparado para esclarecer dúvidas e também responder questionamentos de fake news, direcionar os usuários e dar todo suporte necessário durante esse período de pandemia.
+
 
 ------------
+##Passo de Ciencia de Dados
+- Entender o Problema
+- Entender os Dados
+- Preparar os Dados
+- Criar os Modelo
+- Avaliar o Modelo
+- Publicar e Consumir o Modelo
 
-### Passos
+## Passos para Analises de pré-diagnósticos Pulmonares
 
-- test
-- asd
+1. Coletar gravações de respiração tanto normais como problema pulmonares
+2. Convertar os audio em imagens de frequancia
+3. Treinar o Visual Recognition com as imagens
+4. Criar API para ser consumida
 
 |  ![](https://raw.githubusercontent.com/EduardoMoraesRitter/Dr-Li/master/estretores_finos.png) | ![](https://raw.githubusercontent.com/EduardoMoraesRitter/Dr-Li/master/normal.png)  |
 | ------------ | ------------ |
 |  Imagem de frequencia com problema respiratoria. | Imagem de frequencia respiratoria saúdavel.  |
 
+##Passo para Criação do Assistente Virtual
+
+1. Desenvolver os fluxo e desenho da interação com UX Designer
+2. Criação da Skill dentro do Watson Assistent
+3. Integração com canal de atendimento com IBM Function
+4. Integração com API do Watson Studio
