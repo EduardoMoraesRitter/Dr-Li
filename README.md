@@ -29,3 +29,14 @@ E de modo nunca visto antes o usuário envia uma gravação da sua respiração 
 Tudo isso coletando dados, informando aos órgãos competentes para auxiliar no mapeamento regional, acompanhamento das famílias e no combate ao COVID-19.
 
 ------------
+
+### Passos
+
+- test
+- asd
+
+![](https://raw.githubusercontent.com/EduardoMoraesRitter/Dr-Li/master/estretores_finos.png)
+> Follow your heart.
+
+![](https://raw.githubusercontent.com/EduardoMoraesRitter/Dr-Li/master/normal.png)
+> Follow your heart.
