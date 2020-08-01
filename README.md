@@ -26,7 +26,7 @@ Tudo isso coletando dados oficiais, informando aos órgãos competentes, auxilia
 
 
 ------------
-##Passo de Ciencia de Dados
+## Passo de Ciencia de Dados
 - Entender o Problema
 - Entender os Dados
 - Preparar os Dados
@@ -45,7 +45,7 @@ Tudo isso coletando dados oficiais, informando aos órgãos competentes, auxilia
 | ------------ | ------------ |
 |  Imagem de frequencia com problema respiratoria. | Imagem de frequencia respiratoria saúdavel.  |
 
-##Passo para Criação do Assistente Virtual
+## Passo para Criação do Assistente Virtual
 
 1. Desenvolver os fluxo e desenho da interação com UX Designer
 2. Criação da Skill dentro do Watson Assistent
